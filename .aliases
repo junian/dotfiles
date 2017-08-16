@@ -5,3 +5,6 @@ alias dns-refresh='killall -HUP mDNSResponder'
 
 # Get week number
 alias week='date +%V'
+
+# Open with geany
+alias geany='open -a /Applications/Geany.app'
