@@ -19,3 +19,6 @@ export PATH=$PATH:/usr/local/opt/go/libexec/bin
 
 # Set ANDROID_HOME
 export ANDROID_HOME=/Users/junian/sdk/android-sdk
+
+# opt out dotnet
+export DOTNET_CLI_TELEMETRY_OPTOUT=1
