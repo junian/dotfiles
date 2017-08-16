@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#dns refresh
+alias dns-refresh='killall -HUP mDNSResponder'
