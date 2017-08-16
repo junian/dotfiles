@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#dns refresh
+# dns refresh
 alias dns-refresh='killall -HUP mDNSResponder'
 
 # Get week number
@@ -15,10 +15,10 @@ alias xamarin='open -a /Applications/Xamarin\ Studio.app'
 # Open Visual Studio from terminal
 alias vsmac='open -a /Applications/Visual\ Studio.app'
 
-#colored cat
+# colored cat
 alias ccat='pygmentize -O style=monokai -f console256 -g'
 
-#youtube-dl with aria
+# youtube-dl with aria
 alias youtube-aria2c='youtube-dl --external-downloader aria2c --external-downloader-args "-x16"'
 
 # Start tomcat
@@ -29,3 +29,6 @@ alias tomcat-stop='sh /usr/local/Cellar/tomcat\@6/6.0.45/bin/shutdown.sh'
 
 # brew update + upgrade + cleanup
 alias brew-check='brew update && brew update && brew upgrade && brew cleanup -s -v && brew doctor && trash `brew --cache`'
+
+# run ffserver
+alias ffserver-run='ffserver -f /usr/local/etc/ffserver.conf'
