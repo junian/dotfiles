@@ -40,3 +40,9 @@ function cdf() {
         echo 'No Finder window found' >&2
     fi
 }
+
+#mdview: view markdown as html inside terminal
+function mdview()
+{
+    pandoc -t html $1 | lynx -stdin
+}
