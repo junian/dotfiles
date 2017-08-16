@@ -16,3 +16,6 @@ export PATH=$PATH:$GOPATH/bin
 
 # Add GOROOT path
 export PATH=$PATH:/usr/local/opt/go/libexec/bin
+
+# Set ANDROID_HOME
+export ANDROID_HOME=/Users/junian/sdk/android-sdk
