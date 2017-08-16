@@ -14,3 +14,5 @@ export PATH="/Users/junian/.composer/vendor/bin:$PATH"
 export GOPATH=$HOME/.gowork
 export PATH=$PATH:$GOPATH/bin
 
+# Add GOROOT path
+export PATH=$PATH:/usr/local/opt/go/libexec/bin
