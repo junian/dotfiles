@@ -4,3 +4,4 @@
 " set expandtab                 " tabs are spaces
 
 set number                      " show line numbers
+syntax enable                   " enable syntax processing
