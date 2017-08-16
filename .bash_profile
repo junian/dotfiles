@@ -32,6 +32,9 @@ export PATH="$HOME/.fastlane/bin:$PATH"
 # iTerm integration
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
 
+# 256 color terminal
+export TERM=xterm-256color
+
 # Add JAVA paths
 # export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home"
 export JAVA_HOME=$(/usr/libexec/java_home)
