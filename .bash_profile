@@ -31,3 +31,7 @@ export PATH="$HOME/.fastlane/bin:$PATH"
 
 # iTerm integration
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/junian/.sdkman"
+[[ -s "/Users/junian/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/junian/.sdkman/bin/sdkman-init.sh"
