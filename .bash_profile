@@ -3,3 +3,6 @@ for file in ~/.{aliases,functions,myfunctions}; do
     [ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;
+
+# Add /usr/local/sbin to PATH used by Homebrew
+export PATH="/usr/local/sbin:$PATH"
