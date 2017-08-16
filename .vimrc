@@ -5,3 +5,4 @@
 
 set number                      " show line numbers
 syntax enable                   " enable syntax processing
+set cursorline                  " highlight current line
