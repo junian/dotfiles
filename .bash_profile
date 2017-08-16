@@ -9,3 +9,8 @@ export PATH="/usr/local/sbin:$PATH"
 
 # Add composer to PATH
 export PATH="/Users/junian/.composer/vendor/bin:$PATH"
+
+# Add GOPATH and add it into PATH
+export GOPATH=$HOME/.gowork
+export PATH=$PATH:$GOPATH/bin
+
