@@ -2,3 +2,6 @@
 
 #dns refresh
 alias dns-refresh='killall -HUP mDNSResponder'
+
+# Get week number
+alias week='date +%V'
