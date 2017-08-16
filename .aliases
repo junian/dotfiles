@@ -11,3 +11,6 @@ alias geany='open -a /Applications/Geany.app'
 
 # Open Xamarin from terminal
 alias xamarin='open -a /Applications/Xamarin\ Studio.app'
+
+# Open Visual Studio from terminal
+alias vsmac='open -a /Applications/Visual\ Studio.app'
