@@ -46,3 +46,6 @@ eval $(/usr/libexec/path_helper -s)
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/Users/junian/.sdkman"
 [[ -s "/Users/junian/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/junian/.sdkman/bin/sdkman-init.sh"
+
+# Display computer stats when logged in into shell 
+archey --offline
