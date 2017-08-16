@@ -32,6 +32,11 @@ export PATH="$HOME/.fastlane/bin:$PATH"
 # iTerm integration
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
 
+# Add JAVA paths
+# export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home"
+export JAVA_HOME=$(/usr/libexec/java_home)
+export JAVA_OPTS="-Djava.security.egd=file:/dev/./urandom -Djava.awt.headless=true -Xms1024m -Xmx2048m -XX:MaxPermSize=256m -XX:+UseConcMarkSweepGC"
+
 # nvm
 export NVM_DIR="/Users/junian/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
