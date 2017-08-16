@@ -35,3 +35,7 @@ alias ffserver-run='ffserver -f /usr/local/etc/ffserver.conf'
 
 # list codesigning
 alias ls-codesigning='security find-identity -v -p codesigning'
+
+# vim alias from mvim
+alias vim='mvim -v'
+
