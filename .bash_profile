@@ -6,3 +6,6 @@ unset file;
 
 # Add /usr/local/sbin to PATH used by Homebrew
 export PATH="/usr/local/sbin:$PATH"
+
+# Add composer to PATH
+export PATH="/Users/junian/.composer/vendor/bin:$PATH"
