@@ -23,5 +23,8 @@ export ANDROID_HOME=/Users/junian/sdk/android-sdk
 # opt out dotnet
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
 
+# yarn
+export PATH="$HOME/.yarn/bin:$PATH"
+
 # iTerm integration
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
