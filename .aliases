@@ -8,3 +8,6 @@ alias week='date +%V'
 
 # Open with geany
 alias geany='open -a /Applications/Geany.app'
+
+# Open Xamarin from terminal
+alias xamarin='open -a /Applications/Xamarin\ Studio.app'
