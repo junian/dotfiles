@@ -20,3 +20,10 @@ alias ccat='pygmentize -O style=monokai -f console256 -g'
 
 #youtube-dl with aria
 alias youtube-aria2c='youtube-dl --external-downloader aria2c --external-downloader-args "-x16"'
+
+# Start tomcat
+alias tomcat-start='sh /usr/local/Cellar/tomcat\@6/6.0.45/bin/startup.sh'
+
+# Stop tomcat
+alias tomcat-stop='sh /usr/local/Cellar/tomcat\@6/6.0.45/bin/shutdown.sh'
+
