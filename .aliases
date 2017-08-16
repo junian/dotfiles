@@ -32,3 +32,6 @@ alias brew-check='brew update && brew update && brew upgrade && brew cleanup -s 
 
 # run ffserver
 alias ffserver-run='ffserver -f /usr/local/etc/ffserver.conf'
+
+# list codesigning
+alias ls-codesigning='security find-identity -v -p codesigning'
