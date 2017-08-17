@@ -10,8 +10,10 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
+" NERDtree to display file explorer
 Plugin 'scrooloose/nerdtree'
 
+" goyo to enter distraction free mode
 Plugin 'junegunn/goyo.vim'
 
 " The following are examples of different formats supported.
@@ -53,3 +55,7 @@ filetype plugin indent on    " required
 set number                      " show line numbers
 syntax enable                   " enable syntax processing
 set cursorline                  " highlight current line
+
+" NERDTree config
+let NERDTreeShowHidden=1	" show hidden dotfiles
+
