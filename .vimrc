@@ -16,6 +16,9 @@ Plugin 'scrooloose/nerdtree'
 " goyo to enter distraction free mode
 Plugin 'junegunn/goyo.vim'
 
+" YCM for auto-complete
+Plugin 'Valloric/YouCompleteMe'
+
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
