@@ -16,6 +16,9 @@ Plugin 'scrooloose/nerdtree'
 " goyo to enter distraction free mode
 Plugin 'junegunn/goyo.vim'
 
+" limelight to focus line when writing
+Plugin 'junegunn/limelight.vim'
+
 " YCM for auto-complete
 Plugin 'Valloric/YouCompleteMe'
 
