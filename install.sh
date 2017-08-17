@@ -3,8 +3,11 @@
 echo "Installing dotfiles to home";
 echo "Creating symlinks of dotfiles";
 
-for file in .{functions,aliases,vimrc,bash_profile}; do
-    [ -r "$PWD/$file" ] && [ -f "$PWD/$file" ] && rm "$HOME/$file" && ln -sv "$PWD/$file" $HOME;
+for file in .{functions,aliases,vimrc,bashrc,bash_profile}; do
+    if [ -r "$PWD/$file" ] && [ -f "$PWD/$file" ]; then
+	    rm "$HOME/$file";
+	    ln -sv "$PWD/$file" $HOME;
+    fi;
 done;
 unset file;
 

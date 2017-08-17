@@ -1,3 +1,5 @@
+. ~/.bashrc
+
 # Load the shell dotfiles, and then some:
 for file in ~/.{aliases,functions,myaliases,myfunctions}; do
     [ -r "$file" ] && [ -f "$file" ] && source "$file";
