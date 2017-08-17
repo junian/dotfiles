@@ -69,3 +69,6 @@ set cursorline                  " highlight current line
 " NERDTree config
 let NERDTreeShowHidden=1	" show hidden dotfiles
 
+" vim-airline config
+let g:airline_theme='luna'
+
