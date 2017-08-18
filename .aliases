@@ -42,3 +42,6 @@ alias vim='mvim -v'
 # sourcetree alias
 alias stree='/Applications/SourceTree.app/Contents/Resources/stree'
 
+# codesign alias
+alias codesign-check='codesign -dv --verbose=4'
+
