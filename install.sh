@@ -11,4 +11,7 @@ for file in .{functions,aliases,vimrc,bashrc,bash_profile}; do
 done;
 unset file;
 
+rm "$HOME/.config/mpv/mpv.conf"
+ln -sv "$PWD/mpv.conf" "$HOME/.config/mpv"
+
 echo "Finished symlinking all dotfiles. Restart your shell terminal to take effect.";
