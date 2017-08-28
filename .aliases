@@ -51,3 +51,6 @@ alias bonjour-disable='sudo defaults write /Library/Preferences/com.apple.mDNSRe
 # disable crash reporter
 alias crash-reporter-disable='defaults write com.apple.CrashReporter DialogType none'
 
+# disable icloud document save
+alias icloud-disable='defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false'
+
