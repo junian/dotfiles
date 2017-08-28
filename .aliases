@@ -45,3 +45,6 @@ alias stree='/Applications/SourceTree.app/Contents/Resources/stree'
 # codesign alias
 alias codesign-check='codesign -dv --verbose=4'
 
+# disable bonjour
+alias bonjour-disable='sudo defaults write /Library/Preferences/com.apple.mDNSResponder.plist NoMulticastAdvertisements -bool YES'
+
