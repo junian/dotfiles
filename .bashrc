@@ -29,6 +29,9 @@ export PATH="$HOME/.yarn/bin:$PATH"
 # fastlane
 export PATH="$HOME/.fastlane/bin:$PATH"
 
+# disable brew analytics
+export HOMEBREW_NO_ANALYTICS=1
+
 # iTerm integration
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
 
