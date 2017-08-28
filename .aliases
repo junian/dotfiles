@@ -54,3 +54,6 @@ alias crash-reporter-disable='defaults write com.apple.CrashReporter DialogType 
 # disable icloud document save
 alias icloud-disable='defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false'
 
+# show all extensions
+alias show-extensions='defaults write NSGlobalDomain AppleShowAllExtensions -bool true'
+
