@@ -84,3 +84,6 @@ cask "gimp"
 
 # optimize image size without losing quality
 cask "imageoptim"
+
+# To extract/compress files
+cask "keka"
