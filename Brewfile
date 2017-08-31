@@ -66,3 +66,6 @@ cask "cryptomator"
 
 # Simple TeX cli tool
 cask "basictex"
+
+# Lightweight REST Client
+cask "cocoarestclient"
