@@ -46,6 +46,9 @@ brew "lua"
 
 # install latest go-lang
 brew "go"
+
+# update system grep
+brew "grep"
 ##
 # This section is for cask
 tap "caskroom/cask"
