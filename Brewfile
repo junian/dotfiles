@@ -1,3 +1,5 @@
+##
+# This section is for core cli
 tap "homebrew/core"
 
 # macOS Appstore cli
@@ -18,4 +20,7 @@ brew "tmux"
 # ffmpeg for video processing
 brew "ffmpeg"
 
+
+##
+# This section is for cask
 tap "caskroom/cask"
