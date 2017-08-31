@@ -174,6 +174,9 @@ cask "libreoffice"
 # Watch favorite movies with VLC
 cask "vlc"
 
+# appcleaner
+cask "appcleaner"
+
 # Listen Spotify without ad
 cask "spotifree"
 
