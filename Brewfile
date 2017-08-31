@@ -69,3 +69,6 @@ cask "basictex"
 
 # Lightweight REST Client
 cask "cocoarestclient"
+
+# cleanup caches and clutter in macOS
+cask "ccleaner"
