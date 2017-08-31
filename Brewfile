@@ -63,3 +63,6 @@ cask "dnscrypt"
 cask "cyberduck"
 # encrypt every files
 cask "cryptomator"
+
+# Simple TeX cli tool
+cask "basictex"
