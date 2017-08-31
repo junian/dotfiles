@@ -36,3 +36,8 @@ cask "opera"
 cask "firefox"
 # google chrome for development
 cask "google-chrome"
+
+##
+# install text editors
+# VSCode, the core IDE
+cask "visual-studio-code"
