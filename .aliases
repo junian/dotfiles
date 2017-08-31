@@ -28,7 +28,7 @@ alias tomcat-start='sh /usr/local/Cellar/tomcat\@6/6.0.45/bin/startup.sh'
 alias tomcat-stop='sh /usr/local/Cellar/tomcat\@6/6.0.45/bin/shutdown.sh'
 
 # brew update + upgrade + cleanup
-alias brew-check='brew update && brew update && brew upgrade && brew cleanup -s -v && brew doctor && trash `brew --cache`'
+alias brew-up='brew update && brew update && brew upgrade && brew prune && brew cleanup -s -v && brew doctor && trash `brew --cache`'
 
 # run ffserver
 alias ffserver-run='ffserver -f /usr/local/etc/ffserver.conf'
