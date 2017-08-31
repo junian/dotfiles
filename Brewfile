@@ -24,3 +24,6 @@ brew "ffmpeg"
 ##
 # This section is for cask
 tap "caskroom/cask"
+
+# Use iTerm2 as main terminal
+cask "iterm2"
