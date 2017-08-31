@@ -73,6 +73,9 @@ brew "nmap"
 
 # using octave for math calculation
 brew "octave"
+
+# update system openssh
+brew "openssh"
 ##
 # This section is for cask
 tap "caskroom/cask"
