@@ -61,6 +61,9 @@ brew "httpie"
 
 # hugo for static site gen
 brew "hugo"
+
+# using jenkins for CI
+brew "jenkins"
 ##
 # This section is for cask
 tap "caskroom/cask"
