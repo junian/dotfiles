@@ -75,3 +75,6 @@ cask "ccleaner"
 
 # to see your battery life
 cask "coconutbattery"
+
+# to see everything in your disk
+cask "disk-inventory-x"
