@@ -37,6 +37,9 @@ brew "curl"
 
 # duti used for extension assignment
 brew "duti"
+
+# use for gpg signing
+brew "gnupg"
 ##
 # This section is for cask
 tap "caskroom/cask"
