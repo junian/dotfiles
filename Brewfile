@@ -23,6 +23,8 @@ brew "ffmpeg"
 # openssl for dotnet core
 brew "openssl"
 
+# archey for awesome intro scene
+brew "archey"
 ##
 # This section is for cask
 tap "caskroom/cask"
