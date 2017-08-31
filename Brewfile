@@ -34,3 +34,5 @@ cask "iterm2"
 cask "opera"
 # firefox for security
 cask "firefox"
+# google chrome for development
+cask "google-chrome"
