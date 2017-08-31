@@ -27,3 +27,8 @@ tap "caskroom/cask"
 
 # Use iTerm2 as main terminal
 cask "iterm2"
+
+##
+# install browsers
+# Opera for entertainment (and VPN)
+cask "opera"
