@@ -20,6 +20,8 @@ brew "tmux"
 # ffmpeg for video processing
 brew "ffmpeg"
 
+# openssl for dotnet core
+brew "openssl"
 
 ##
 # This section is for cask
