@@ -67,6 +67,9 @@ brew "jenkins"
 
 # use kotlin as java alternative
 brew "kotlin"
+
+# nmap for scan open port
+brew "nmap"
 ##
 # This section is for cask
 tap "caskroom/cask"
