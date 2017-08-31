@@ -70,6 +70,9 @@ brew "kotlin"
 
 # nmap for scan open port
 brew "nmap"
+
+# using octave for math calculation
+brew "octave"
 ##
 # This section is for cask
 tap "caskroom/cask"
