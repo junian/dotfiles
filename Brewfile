@@ -85,6 +85,9 @@ brew "ruby"
 
 # to test internet speed
 brew "speedtest-cli"
+
+# to copy ssh public key
+brew "ssh-copy-id"
 ##
 # This section is for cask
 tap "caskroom/cask"
