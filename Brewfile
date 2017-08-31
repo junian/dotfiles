@@ -90,3 +90,6 @@ cask "keka"
 
 # I prefer libreoffice for office stuff
 cask "libreoffice"
+
+# Watch favorite movies with VLC
+cask "vlc"
