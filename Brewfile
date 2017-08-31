@@ -1,5 +1,8 @@
 tap "homebrew/core"
 
+# macOS Appstore cli
+brew "mas"
+
 # update system git
 brew "git"
 
