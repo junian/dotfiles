@@ -64,6 +64,9 @@ brew "hugo"
 
 # using jenkins for CI
 brew "jenkins"
+
+# use kotlin as java alternative
+brew "kotlin"
 ##
 # This section is for cask
 tap "caskroom/cask"
