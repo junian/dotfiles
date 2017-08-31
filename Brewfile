@@ -49,3 +49,6 @@ cask "macvim"
 cask "sublime-text"
 # Another lightwright text editor
 cask "textmate"
+
+# manage iOS certificate with fastlane
+cask "fastlane"
