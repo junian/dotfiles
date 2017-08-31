@@ -82,6 +82,9 @@ brew "r"
 
 # update system ruby
 brew "ruby"
+
+# to test internet speed
+brew "speedtest-cli"
 ##
 # This section is for cask
 tap "caskroom/cask"
