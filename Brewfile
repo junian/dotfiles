@@ -76,6 +76,9 @@ brew "octave"
 
 # update system openssh
 brew "openssh"
+
+# install r for stats
+brew "r"
 ##
 # This section is for cask
 tap "caskroom/cask"
