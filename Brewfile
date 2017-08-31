@@ -49,6 +49,9 @@ brew "go"
 
 # update system grep
 brew "grep"
+
+# install python2
+brew "python"
 ##
 # This section is for cask
 tap "caskroom/cask"
