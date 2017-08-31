@@ -45,3 +45,5 @@ cask "visual-studio-code"
 cask "brackets"
 # Macvim for native and terminal usage
 cask "macvim"
+# Sublime Text is lighweight alternative
+cask "sublime-text"
