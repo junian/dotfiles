@@ -34,6 +34,9 @@ brew "colordiff"
 
 # update system curl
 brew "curl"
+
+# duti used for extension assignment
+brew "duti"
 ##
 # This section is for cask
 tap "caskroom/cask"
