@@ -97,6 +97,10 @@ brew "trash"
 
 # display directory in tree view
 brew "tree"
+
+# wget for file downloading
+brew "wget"
+
 ##
 # This section is for cask
 tap "caskroom/cask"
