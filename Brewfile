@@ -79,6 +79,9 @@ brew "openssh"
 
 # install r for stats
 brew "r"
+
+# update system ruby
+brew "ruby"
 ##
 # This section is for cask
 tap "caskroom/cask"
