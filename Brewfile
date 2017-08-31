@@ -43,3 +43,5 @@ cask "google-chrome"
 cask "visual-studio-code"
 # Brackets for CSS-ing
 cask "brackets"
+# Macvim for native and terminal usage
+cask "macvim"
