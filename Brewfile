@@ -87,3 +87,6 @@ cask "imageoptim"
 
 # To extract/compress files
 cask "keka"
+
+# I prefer libreoffice for office stuff
+cask "libreoffice"
