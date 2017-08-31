@@ -81,3 +81,6 @@ cask "disk-inventory-x"
 
 # for Image editing
 cask "gimp"
+
+# optimize image size without losing quality
+cask "imageoptim"
