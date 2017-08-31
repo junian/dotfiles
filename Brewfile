@@ -43,6 +43,9 @@ brew "gnupg"
 
 # install lua
 brew "lua"
+
+# install latest go-lang
+brew "go"
 ##
 # This section is for cask
 tap "caskroom/cask"
