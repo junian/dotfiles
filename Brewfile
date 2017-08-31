@@ -93,3 +93,6 @@ cask "libreoffice"
 
 # Watch favorite movies with VLC
 cask "vlc"
+
+# Listen Spotify without ad
+cask "spotifree"
