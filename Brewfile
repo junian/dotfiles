@@ -47,3 +47,5 @@ cask "brackets"
 cask "macvim"
 # Sublime Text is lighweight alternative
 cask "sublime-text"
+# Another lightwright text editor
+cask "textmate"
