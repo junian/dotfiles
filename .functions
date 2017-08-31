@@ -58,3 +58,10 @@ function brew-source()
 {
     brew info $(brew list) | grep '^From:' | sort
 }
+
+# brew-cask-source: get all cask list and its source
+function brew-cask-source()
+{
+    brew cask info $(brew cask list) | grep '^From:' | sort
+}
+
