@@ -52,6 +52,9 @@ brew "grep"
 
 # install python2
 brew "python"
+
+# install python3
+brew "python3"
 ##
 # This section is for cask
 tap "caskroom/cask"
