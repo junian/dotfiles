@@ -78,3 +78,6 @@ cask "coconutbattery"
 
 # to see everything in your disk
 cask "disk-inventory-x"
+
+# for Image editing
+cask "gimp"
