@@ -180,6 +180,9 @@ cask "appcleaner"
 # inkscape for vector design
 cask "inkscape"
 
+# sourcetree
+cask "sourcetree"
+
 # Listen Spotify without ad
 cask "spotifree"
 
