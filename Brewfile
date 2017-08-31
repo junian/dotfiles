@@ -91,6 +91,9 @@ brew "ssh-copy-id"
 
 # for tomcat server
 brew "tomcat@6"
+
+# to delete file to trash
+brew "trash"
 ##
 # This section is for cask
 tap "caskroom/cask"
