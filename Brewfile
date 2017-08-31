@@ -94,6 +94,9 @@ brew "tomcat@6"
 
 # to delete file to trash
 brew "trash"
+
+# display directory in tree view
+brew "tree"
 ##
 # This section is for cask
 tap "caskroom/cask"
