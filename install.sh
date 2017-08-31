@@ -14,4 +14,8 @@ unset file;
 rm "$HOME/.config/mpv/mpv.conf"
 ln -sv "$PWD/mpv.conf" "$HOME/.config/mpv"
 
+rm "$HOME/.Brewfile"
+ln -sv "$PWD/Brewfile" "$HOME/.Brewfile"
+
 echo "Finished symlinking all dotfiles. Restart your shell terminal to take effect.";
+
