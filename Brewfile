@@ -177,6 +177,9 @@ cask "vlc"
 # appcleaner
 cask "appcleaner"
 
+# inkscape for vector design
+cask "inkscape"
+
 # Listen Spotify without ad
 cask "spotifree"
 
