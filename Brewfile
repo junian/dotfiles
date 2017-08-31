@@ -58,3 +58,8 @@ cask "gas-mask"
 
 # DNSCrypt to bypass your ISP DNS filtering
 cask "dnscrypt"
+
+# to access SFTP/FTP/etc
+cask "cyberduck"
+# encrypt every files
+cask "cryptomator"
