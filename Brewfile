@@ -40,6 +40,9 @@ brew "duti"
 
 # use for gpg signing
 brew "gnupg"
+
+# install lua
+brew "lua"
 ##
 # This section is for cask
 tap "caskroom/cask"
