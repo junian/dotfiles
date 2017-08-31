@@ -31,6 +31,9 @@ brew "perl"
 
 # diff with color
 brew "colordiff"
+
+# update system curl
+brew "curl"
 ##
 # This section is for cask
 tap "caskroom/cask"
