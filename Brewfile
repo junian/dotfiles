@@ -96,3 +96,8 @@ cask "vlc"
 
 # Listen Spotify without ad
 cask "spotifree"
+
+# for golang delve
+tap "go-delve/delve"
+
+brew "go-delve/delve/delve"
