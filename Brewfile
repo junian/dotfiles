@@ -25,6 +25,9 @@ brew "openssl"
 
 # archey for awesome intro scene
 brew "archey"
+
+# update system perl
+brew "perl"
 ##
 # This section is for cask
 tap "caskroom/cask"
