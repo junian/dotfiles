@@ -41,3 +41,5 @@ cask "google-chrome"
 # install text editors
 # VSCode, the core IDE
 cask "visual-studio-code"
+# Brackets for CSS-ing
+cask "brackets"
