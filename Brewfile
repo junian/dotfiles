@@ -55,6 +55,9 @@ brew "python"
 
 # install python3
 brew "python3"
+
+# httpie for awesome curl alternative
+brew "httpie"
 ##
 # This section is for cask
 tap "caskroom/cask"
