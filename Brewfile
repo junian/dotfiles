@@ -88,6 +88,9 @@ brew "speedtest-cli"
 
 # to copy ssh public key
 brew "ssh-copy-id"
+
+# for tomcat server
+brew "tomcat@6"
 ##
 # This section is for cask
 tap "caskroom/cask"
