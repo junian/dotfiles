@@ -52,3 +52,6 @@ cask "textmate"
 
 # manage iOS certificate with fastlane
 cask "fastlane"
+
+# manage /etc/hosts with Gas Mask
+cask "gas-mask"
