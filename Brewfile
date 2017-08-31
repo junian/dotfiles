@@ -28,6 +28,9 @@ brew "archey"
 
 # update system perl
 brew "perl"
+
+# diff with color
+brew "colordiff"
 ##
 # This section is for cask
 tap "caskroom/cask"
