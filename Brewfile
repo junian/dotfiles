@@ -58,6 +58,9 @@ brew "python3"
 
 # httpie for awesome curl alternative
 brew "httpie"
+
+# hugo for static site gen
+brew "hugo"
 ##
 # This section is for cask
 tap "caskroom/cask"
