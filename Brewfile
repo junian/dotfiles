@@ -7,6 +7,8 @@ brew "mas"
 brew "git"
 # add git-lfs support
 brew "git-lfs"
+# add git-flow support
+brew "git-flow-avh"
 
 # terminal multiplexer
 brew "tmux"
