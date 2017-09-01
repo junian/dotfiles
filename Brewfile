@@ -201,3 +201,9 @@ tap "go-delve/delve"
 brew "go-delve/delve/delve"
 
 tap "homebrew/bundle"
+
+##
+# macOS App Store
+
+mas "Caffeine", id: 411246225
+
