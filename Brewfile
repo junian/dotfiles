@@ -195,6 +195,9 @@ cask "inkscape"
 # sourcetree
 cask "sourcetree"
 
+# spotify to stream music
+cask "spotify"
+
 # Listen Spotify without ad
 cask "spotifree"
 
