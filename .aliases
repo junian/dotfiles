@@ -62,5 +62,7 @@ alias show-extensions='defaults write NSGlobalDomain AppleShowAllExtensions -boo
 
 alias chrome-chat='open -nF /Applications/Google\ Chrome.app --args --user-data-dir="$HOME/.chrome-chat"'
 
+alias chrome-finance='open -nF /Applications/Google\ Chrome.app --args --user-data-dir="$HOME/.chrome-finance"'
+
 alias appcleaner='open -a /Applications/AppCleaner.app/'
 
