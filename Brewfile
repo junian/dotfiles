@@ -183,6 +183,9 @@ cask "libreoffice"
 # Watch favorite movies with VLC
 cask "vlc"
 
+# video transcoding
+cask "handbrake"
+
 # appcleaner
 cask "appcleaner"
 
