@@ -60,3 +60,5 @@ alias icloud-disable='defaults write NSGlobalDomain NSDocumentSaveNewDocumentsTo
 # show all extensions
 alias show-extensions='defaults write NSGlobalDomain AppleShowAllExtensions -bool true'
 
+alias chrome-chat='open -nF /Applications/Google\ Chrome.app --args --user-data-dir="$HOME/.chrome-chat"'
+
