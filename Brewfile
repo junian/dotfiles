@@ -204,6 +204,9 @@ cask "spotifree"
 # skype for chatting
 cask "skype"
 
+# best mysql client
+cask "mysqlworkbench"
+
 # for golang delve
 tap "go-delve/delve"
 
