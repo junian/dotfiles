@@ -217,5 +217,9 @@ tap "homebrew/bundle"
 ##
 # macOS App Store
 
+# to make your mac machine always on
 mas "Caffeine", id: 411246225
+
+# to annonate image quickly
+mas "Skitch", id: 425955336
 
