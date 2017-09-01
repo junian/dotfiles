@@ -102,6 +102,13 @@ brew "tree"
 brew "wget"
 
 ##
+# Tap PHP
+tap "homebrew/homebrew-php"
+
+brew "php71"
+brew "php71-xdebug"
+
+##
 # This section is for cask
 tap "caskroom/cask"
 
