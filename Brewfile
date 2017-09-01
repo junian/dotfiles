@@ -204,6 +204,9 @@ cask "spotifree"
 # skype for chatting
 cask "skype"
 
+# docker for app dev
+cask "docker"
+
 # best mysql client
 cask "mysqlworkbench"
 
