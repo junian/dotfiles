@@ -201,6 +201,9 @@ cask "spotify"
 # Listen Spotify without ad
 cask "spotifree"
 
+# skype for chatting
+cask "skype"
+
 # for golang delve
 tap "go-delve/delve"
 
