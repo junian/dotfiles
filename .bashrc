@@ -8,7 +8,7 @@ unset file;
 export PATH="/usr/local/sbin:$PATH"
 
 # Add composer to PATH
-export PATH="/Users/junian/.composer/vendor/bin:$PATH"
+export PATH="$HOME/.composer/vendor/bin:$PATH"
 
 # Add GOPATH and add it into PATH
 export GOPATH=$HOME/.gowork
@@ -18,7 +18,7 @@ export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:/usr/local/opt/go/libexec/bin
 
 # Set ANDROID_HOME
-export ANDROID_HOME=/Users/junian/sdk/android-sdk
+export ANDROID_HOME=$HOME/sdk/android-sdk
 
 # opt out dotnet
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
@@ -44,12 +44,12 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 export JAVA_OPTS="-Djava.security.egd=file:/dev/./urandom -Djava.awt.headless=true -Xms1024m -Xmx2048m -XX:MaxPermSize=256m -XX:+UseConcMarkSweepGC"
 
 # nvm
-export NVM_DIR="/Users/junian/.nvm"
+export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 eval $(/usr/libexec/path_helper -s)
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/Users/junian/.sdkman"
-[[ -s "/Users/junian/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/junian/.sdkman/bin/sdkman-init.sh"
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
