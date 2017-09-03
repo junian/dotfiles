@@ -216,6 +216,9 @@ cask "docker"
 # best mysql client
 cask "mysqlworkbench"
 
+cask "osxfuse"
+brew "sshfs"
+
 # for golang delve
 tap "go-delve/delve"
 
