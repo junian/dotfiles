@@ -104,9 +104,6 @@ brew "wget"
 # Download youtube video
 brew "youtube-dl"
 
-# bash completion
-brew "bash-completion"
-
 ##
 # Tap PHP
 tap "homebrew/homebrew-php"
