@@ -216,6 +216,9 @@ cask "docker"
 # best mysql client
 cask "mysqlworkbench"
 
+# HockeyApp
+cask "hockey"
+
 cask "osxfuse"
 brew "sshfs"
 
