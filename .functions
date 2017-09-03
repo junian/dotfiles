@@ -70,3 +70,8 @@ function mysql-sock()
     netstat -ln | grep -o -m 1 '/.*mysql.sock'
 }
 
+function php-mysql-path()
+{
+    php -r 'echo ini_get("mysql.default_socket") . "\n";'
+}
+
