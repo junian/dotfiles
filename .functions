@@ -65,3 +65,8 @@ function brew-cask-source()
     brew cask info $(brew cask list) | grep '^From:' | sort
 }
 
+function mysql-sock()
+{
+    netstat -ln | grep -o -m 1 '/.*mysql.sock'
+}
+
