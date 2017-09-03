@@ -101,6 +101,9 @@ brew "tree"
 # wget for file downloading
 brew "wget"
 
+# Download youtube video
+brew "youtube-dl"
+
 ##
 # Tap PHP
 tap "homebrew/homebrew-php"
