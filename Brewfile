@@ -216,6 +216,9 @@ cask "mysqlworkbench"
 # HockeyApp
 cask "hockey"
 
+# Google Drive
+cask "google-backup-and-sync"
+
 cask "osxfuse"
 brew "sshfs"
 
