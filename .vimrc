@@ -29,6 +29,9 @@ Plugin 'vim-airline/vim-airline-themes'
 " vim-colorschemes
 Plugin 'flazz/vim-colorschemes'
 
+" gohugo
+Plugin 'robertbasic/vim-hugo-helper'
+
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
