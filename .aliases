@@ -67,3 +67,8 @@ alias chrome-finance='open -nF /Applications/Google\ Chrome.app --args --user-da
 alias chrome-social='open -nF /Applications/Google\ Chrome.app --args --user-data-dir="$HOME/.chrome-social"'
 
 alias appcleaner='open -a /Applications/AppCleaner.app/'
+
+alias python='/usr/local/bin/python3'
+
+alias pip='/usr/local/bin/pip3'
+
