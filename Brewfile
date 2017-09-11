@@ -104,6 +104,9 @@ brew "wget"
 # Download youtube video
 brew "youtube-dl"
 
+# bfg to clean git sensitive files
+brew "bfg"
+
 ##
 # Tap PHP
 tap "homebrew/homebrew-php"
