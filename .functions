@@ -75,3 +75,12 @@ function php-mysql-path()
     php -r 'echo ini_get("mysql.default_socket") . "\n";'
 }
 
+function gh-pages-init()
+{
+    git checkout --orphan gh-pages
+    git rm -rf .
+    touch README.md
+    git add README.md
+    git commit -a -m "First pages commit"
+    git push origin gh-pages
+}
