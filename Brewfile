@@ -17,6 +17,9 @@ brew "git-flow-avh"
 # install subversion
 brew "svn"
 
+# install mercurial hg
+brew "hg"
+
 # terminal multiplexer
 brew "tmux"
 
