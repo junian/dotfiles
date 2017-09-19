@@ -204,6 +204,8 @@ cask "inkscape"
 # sourcetree
 cask "sourcetree"
 
+cask "svnx"
+
 # spotify to stream music
 cask "spotify"
 
