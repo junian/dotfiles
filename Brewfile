@@ -14,6 +14,9 @@ brew "git-lfs"
 # add git-flow support
 brew "git-flow-avh"
 
+# install subversion
+brew "svn"
+
 # terminal multiplexer
 brew "tmux"
 
