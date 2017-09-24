@@ -233,6 +233,9 @@ cask "hockey"
 # Google Drive
 cask "google-backup-and-sync"
 
+# for managing cryptography keys
+cask "keybase"
+
 cask "osxfuse"
 brew "sshfs"
 
