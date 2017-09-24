@@ -113,6 +113,9 @@ brew "youtube-dl"
 # bfg to clean git sensitive files
 brew "bfg"
 
+# for syncing file
+brew "rsync"
+
 ##
 # Tap PHP
 tap "homebrew/homebrew-php"
