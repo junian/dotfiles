@@ -64,7 +64,7 @@ alias chrome-chat='open -nF /Applications/Google\ Chrome.app --args --user-data-
 
 alias chrome-finance='open -nF /Applications/Google\ Chrome.app --args --user-data-dir="$HOME/.chrome-finance"'
 
-alias chrome-social='open -nF /Applications/Google\ Chrome.app --args --user-data-dir="$HOME/.chrome-social"'
+# alias chrome-social='open -nF /Applications/Google\ Chrome.app --args --user-data-dir="$HOME/.chrome-social"'
 
 alias appcleaner='open -a /Applications/AppCleaner.app/'
 
