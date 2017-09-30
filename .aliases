@@ -74,3 +74,4 @@ alias pip='/usr/local/bin/pip3'
 
 alias rsync-dry-run='rsync -avh --dry-run'
 
+alias openssl-pwgen='openssl rand -base64 30'
