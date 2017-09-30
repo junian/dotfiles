@@ -116,6 +116,9 @@ brew "bfg"
 # for syncing file
 brew "rsync"
 
+# screen cmd 
+brew "screen"
+
 ##
 # Tap PHP
 tap "homebrew/homebrew-php"
