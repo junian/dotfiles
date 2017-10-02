@@ -242,6 +242,9 @@ cask "keybase"
 # Atom IDE
 cask "atom"
 
+# For IRC chat
+cask "colloquy"
+
 cask "osxfuse"
 brew "sshfs"
 
