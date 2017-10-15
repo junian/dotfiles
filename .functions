@@ -96,6 +96,8 @@ function oscleanup()
         ~/Library/Developer/Xcode/DerivedData/*
         ~/Library/Developer/Xcode/Archives/*
         ~/Library/Developer/Xcode/iOS\ Device\ Logs/*
+        ~/Library/Containers/*/Data/Library/Logs/*
+        ~/Library/Containers/*/Data/Library/Caches/*
     )
 
     for i in "${trashlist[@]}"; do
