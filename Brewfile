@@ -181,7 +181,7 @@ cask "basictex"
 cask "cocoarestclient"
 
 # cleanup caches and clutter in macOS
-cask "ccleaner"
+# cask "ccleaner"
 
 # to see your battery life
 cask "coconutbattery"
