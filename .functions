@@ -84,3 +84,16 @@ function gh-pages-init()
     git commit -a -m "First pages commit"
     git push origin gh-pages
 }
+
+function oscleanup()
+{
+    trashlist=(
+        /tmp/*
+    )
+
+    for i in "${trashlist[@]}"; do
+        trash "${i}"
+    done
+
+}
+
