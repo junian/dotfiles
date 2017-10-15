@@ -119,6 +119,9 @@ brew "rsync"
 # screen cmd 
 brew "screen"
 
+# wine
+brew "wine"
+
 ##
 # Tap PHP
 tap "homebrew/homebrew-php"
