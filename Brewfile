@@ -231,7 +231,8 @@ cask "skype"
 cask "docker"
 
 # best mysql client
-cask "mysqlworkbench"
+# cask "mysqlworkbench"
+cask "sequel-pro"
 
 # HockeyApp
 cask "hockey"
