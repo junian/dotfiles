@@ -91,6 +91,7 @@ function oscleanup()
         /tmp/*
         ~/Library/Caches/*
         ~/Library/Logs/*
+        /var/log/*
     )
 
     for i in "${trashlist[@]}"; do
