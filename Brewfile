@@ -247,7 +247,7 @@ cask "keybase"
 cask "atom"
 
 # For IRC chat
-cask "colloquy"
+# cask "colloquy"
 
 cask "osxfuse"
 brew "sshfs"
