@@ -89,6 +89,8 @@ function oscleanup()
 {
     trashlist=(
         /tmp/*
+        ~/Library/Caches/*
+        ~/Library/Logs/*
     )
 
     for i in "${trashlist[@]}"; do
