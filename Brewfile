@@ -249,6 +249,9 @@ cask "atom"
 # For IRC chat
 # cask "colloquy"
 
+# For jabber
+cask "adium"
+
 cask "osxfuse"
 brew "sshfs"
 
