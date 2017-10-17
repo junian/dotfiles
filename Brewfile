@@ -254,6 +254,8 @@ cask "adium"
 
 # for work time tracker
 cask "hubstaff"
+cask "upwork"
+
 cask "osxfuse"
 brew "sshfs"
 
