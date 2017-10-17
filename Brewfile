@@ -252,6 +252,8 @@ cask "atom"
 # For jabber
 cask "adium"
 
+# for work time tracker
+cask "hubstaff"
 cask "osxfuse"
 brew "sshfs"
 
