@@ -250,7 +250,7 @@ cask "atom"
 # cask "colloquy"
 
 # For jabber
-cask "adium"
+# cask "adium"
 
 # for work time tracker
 cask "hubstaff"
