@@ -256,6 +256,8 @@ cask "atom"
 cask "hubstaff"
 cask "upwork"
 
+cask "safari-technology-preview"
+
 cask "osxfuse"
 brew "sshfs"
 
