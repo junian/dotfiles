@@ -172,7 +172,7 @@ cask "dnscrypt"
 # to access SFTP/FTP/etc
 cask "cyberduck"
 # encrypt every files
-cask "cryptomator"
+# cask "cryptomator"
 
 # Simple TeX cli tool
 cask "basictex"
