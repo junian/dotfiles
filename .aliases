@@ -79,3 +79,5 @@ alias openssl-pwgen='openssl rand -base64 30'
 alias cron-check-all='for user in $(cut -f1 -d: /etc/passwd); do crontab -u $user -l; done'
 
 alias heidisql='wine ~/.wine/drive_c/Program\ Files/HeidiSQL/heidisql.exe'
+
+alias npp='wine ~/.wine/drive_c/Program\ Files/Notepad++/notepad++.exe'
