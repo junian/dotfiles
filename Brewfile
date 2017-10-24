@@ -89,6 +89,9 @@ brew "r"
 # update system ruby
 # brew "ruby"
 
+# install rbenv
+brew "rbenv"
+
 # to test internet speed
 brew "speedtest-cli"
 
