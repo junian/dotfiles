@@ -87,7 +87,7 @@ brew "openssh"
 brew "r"
 
 # update system ruby
-brew "ruby"
+# brew "ruby"
 
 # to test internet speed
 brew "speedtest-cli"
