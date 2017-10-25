@@ -90,7 +90,7 @@ brew "r"
 # brew "ruby"
 
 # install rbenv
-brew "rbenv"
+# brew "rbenv"
 
 # to test internet speed
 brew "speedtest-cli"
