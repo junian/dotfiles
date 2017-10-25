@@ -87,7 +87,7 @@ brew "openssh"
 brew "r"
 
 # update system ruby
-# brew "ruby"
+brew "ruby"
 
 # install rbenv
 # brew "rbenv"
