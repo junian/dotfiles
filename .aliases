@@ -82,4 +82,4 @@ alias heidisql='wine ~/.wine/drive_c/Program\ Files/HeidiSQL/heidisql.exe'
 
 alias npp='wine ~/.wine/drive_c/Program\ Files/Notepad++/notepad++.exe'
 
-alias ruby-bundle='bundle install --system --gemfile $HOME/.Gemfile'
+alias ruby-bundle='bundle install --system --gemfile $HOME/.Gemfile && rm $HOME/.Gemfile.lock'
