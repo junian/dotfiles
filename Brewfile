@@ -259,7 +259,7 @@ cask "atom"
 cask "hubstaff"
 cask "upwork"
 
-cask "safari-technology-preview"
+# cask "safari-technology-preview"
 
 # cask "santa"
 
