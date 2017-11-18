@@ -261,7 +261,7 @@ cask "upwork"
 
 cask "safari-technology-preview"
 
-cask "santa"
+# cask "santa"
 
 cask "osxfuse"
 brew "sshfs"
