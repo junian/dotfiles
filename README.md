@@ -4,7 +4,9 @@ My personal dotfiles collection. Intended to be used on macOS system, but some p
 
 Before using anything, install it first by typing this command:
 
-    $ ./install.sh
+```bash
+$ ./install.sh
+```
 
 ## What's Inside?
 
