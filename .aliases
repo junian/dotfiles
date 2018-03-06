@@ -66,24 +66,34 @@ alias show-extensions='defaults write NSGlobalDomain AppleShowAllExtensions -boo
 
 # alias chrome-social='open -nF /Applications/Google\ Chrome.app --args --user-data-dir="$HOME/.chrome-social"'
 
+# open AppCleaner
 alias appcleaner='open -a /Applications/AppCleaner.app/'
 
+# set python as python3 alias
 alias python='/usr/local/bin/python3'
 
+# set pip as pip3 alias
 alias pip='/usr/local/bin/pip3'
 
+# rsync dry run
 alias rsync-dry-run='rsync -avh --dry-run'
 
+# generate password using openssl
 alias openssl-pwgen='openssl rand -base64 30'
 
+# check all cron
 alias cron-check-all='for user in $(cut -f1 -d: /etc/passwd); do crontab -u $user -l; done'
 
+# open heidisql using wine
 alias heidisql='wine ~/.wine/drive_c/Program\ Files/HeidiSQL/heidisql.exe'
 
+# open notepad++ using wine
 alias npp='wine ~/.wine/drive_c/Program\ Files/Notepad++/notepad++.exe'
 
+# ruby bundle shortcut
 alias ruby-bundle='bundle install --system --gemfile $HOME/.Gemfile && rm $HOME/.Gemfile.lock'
 
+# archive git repository
 alias git-archive='git archive `git rev-parse --abbrev-ref HEAD` --format=zip --output=$HOME/Documents/`basename $PWD`-`date "+%Y%m%d%H%M"`-`git rev-parse --short HEAD`.zip'
 
 # send archived git repository to dropbox
