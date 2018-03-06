@@ -97,6 +97,9 @@ alias socat-virtual='socat -d -d -d -d -lf $HOME/dev/tmpsocat pty,link=$HOME/dev
 
 # download subtitle in english
 alias subliminal-en='subliminal download -l en'
+
+# download subtitle in indonesia
+alias subliminal-id='subliminal download -l id'
 # run msbuild as debug
 alias msbuild-debug='nuget restore && msbuild'
 
