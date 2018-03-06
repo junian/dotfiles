@@ -65,16 +65,19 @@ function brew-cask-source()
     brew cask info $(brew cask list) | grep '^From:' | sort
 }
 
+# get mysql sock
 function mysql-sock()
 {
     netstat -ln | grep -o -m 1 '/.*mysql.sock'
 }
 
+# get php mysql path
 function php-mysql-path()
 {
     php -r 'echo ini_get("mysql.default_socket") . "\n";'
 }
 
+# init gh-pages
 function gh-pages-init()
 {
     git checkout --orphan gh-pages
@@ -85,6 +88,7 @@ function gh-pages-init()
     git push origin gh-pages
 }
 
+# cleanup os junk files
 function oscleanup()
 {
     trashlist=(
