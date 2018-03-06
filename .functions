@@ -110,3 +110,13 @@ function oscleanup()
 function curl-title() {
     curl -sL $1 | pup 'title text{}'
 }
+
+# check if your password is pwned
+function passpwned() {
+    HASHED_PASS=$(echo -n $1 | shasum -a 1 | awk '{print toupper($1)}')
+    echo "Your hashed password: $HASHED_PASS"
+    echo "Checking your hashed password to api.pwnedpasswords.com ..."
+    PWNED_COUNT=$(curl -s https://api.pwnedpasswords.com/pwnedpassword/$HASHED_PASS)
+    echo "Your password is pawned $PWNED_COUNT times"
+}
+
