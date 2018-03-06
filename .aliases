@@ -94,6 +94,9 @@ alias socat-vsp='mkdir -p $HOME/dev && socat -d -d pty,raw,echo=0,link=$HOME/dev
 
 # create virtual socat
 alias socat-virtual='socat -d -d -d -d -lf $HOME/dev/tmpsocat pty,link=$HOME/dev/tty.master,raw,echo=0,user=junian,group=staff pty,link=$HOME/dev/slave,raw,echo=0,user=junian,group=staff'
+
+# download subtitle in english
+alias subliminal-en='subliminal download -l en'
 # run msbuild as debug
 alias msbuild-debug='nuget restore && msbuild'
 
