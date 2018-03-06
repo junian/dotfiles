@@ -106,3 +106,7 @@ function oscleanup()
 
 }
 
+# curl to get title of url
+function curl-title() {
+    curl -sL $1 | pup 'title text{}'
+}
