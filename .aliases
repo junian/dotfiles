@@ -100,6 +100,10 @@ alias subliminal-en='subliminal download -l en'
 
 # download subtitle in indonesia
 alias subliminal-id='subliminal download -l id'
+
+# run msbuild as release
+alias msbuild-release='nuget restore && msbuild /t:Rebuild /p:Configuration=Release'
+
 # run msbuild as debug
 alias msbuild-debug='nuget restore && msbuild'
 
