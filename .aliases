@@ -88,6 +88,9 @@ alias git-archive='git archive `git rev-parse --abbrev-ref HEAD` --format=zip --
 
 # send archived git repository to dropbox
 alias git-archive-to-dropbox='mkdir -p $HOME/Dropbox/`basename $PWD` && git archive `git rev-parse --abbrev-ref HEAD` --format=zip --output=$HOME/Dropbox/`basename $PWD`/`basename $PWD`-`date "+%Y%m%d%H%M"`-`git rev-parse --short HEAD`.zip'
+
+# create socat
+alias socat-vsp='mkdir -p $HOME/dev && socat -d -d pty,raw,echo=0,link=$HOME/dev/tty.COM1 pty,raw,echo=0,link=$HOME/dev/tty.COM2'
 # run msbuild as debug
 alias msbuild-debug='nuget restore && msbuild'
 
