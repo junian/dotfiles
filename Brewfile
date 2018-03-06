@@ -259,6 +259,9 @@ cask "atom"
 cask "hubstaff"
 cask "upwork"
 
+# for rasberry pi installation
+cask "etcher"
+
 # cask "safari-technology-preview"
 
 # cask "santa"
