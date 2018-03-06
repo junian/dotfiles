@@ -91,6 +91,9 @@ alias git-archive-to-dropbox='mkdir -p $HOME/Dropbox/`basename $PWD` && git arch
 
 # create socat
 alias socat-vsp='mkdir -p $HOME/dev && socat -d -d pty,raw,echo=0,link=$HOME/dev/tty.COM1 pty,raw,echo=0,link=$HOME/dev/tty.COM2'
+
+# create virtual socat
+alias socat-virtual='socat -d -d -d -d -lf $HOME/dev/tmpsocat pty,link=$HOME/dev/tty.master,raw,echo=0,user=junian,group=staff pty,link=$HOME/dev/slave,raw,echo=0,user=junian,group=staff'
 # run msbuild as debug
 alias msbuild-debug='nuget restore && msbuild'
 
