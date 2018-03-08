@@ -170,7 +170,8 @@ cask "fastlane"
 cask "gas-mask"
 
 # DNSCrypt to bypass your ISP DNS filtering
-cask "dnscrypt"
+# cask "dnscrypt"
+brew "dnscrypt-proxy"
 
 # to access SFTP/FTP/etc
 cask "cyberduck"
