@@ -139,6 +139,10 @@ function totp-paste() {
     umask 0077;pbpaste > $HOME/.totp/.$1
 }
 
+function totp() {
+    oathtool --totp -b "$(cat $HOME/.totp/.${1})";
+}
+
 function hugo-new-post() {
     hugo new posts/$(date +%Y)/$(date +%m)/${1}
 }
