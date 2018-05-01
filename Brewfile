@@ -150,6 +150,8 @@ cask "iterm2"
 cask "firefox"
 # google chrome for development
 cask "google-chrome"
+# battery-friendly browser with latest feature
+cask "safari-technology-preview"
 
 ##
 # install text editors
@@ -276,7 +278,6 @@ cask "bbedit"
 
 cask "dbeaver-community"
 
-# cask "safari-technology-preview"
 
 # cask "santa"
 
