@@ -279,8 +279,6 @@ cask "bbedit"
 cask "dbeaver-community"
 
 
-# cask "santa"
-
 cask "osxfuse"
 brew "sshfs"
 
