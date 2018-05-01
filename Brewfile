@@ -174,8 +174,6 @@ cask "gas-mask"
 
 # to access SFTP/FTP/etc
 cask "cyberduck"
-# encrypt every files
-# cask "cryptomator"
 
 # Simple TeX cli tool
 cask "basictex"
