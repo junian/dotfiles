@@ -247,7 +247,7 @@ cask "google-backup-and-sync"
 cask "keybase"
 
 # Atom IDE
-cask "atom"
+# cask "atom"
 
 # For IRC chat
 # cask "colloquy"
