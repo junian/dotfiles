@@ -257,6 +257,8 @@ cask "keybase"
 
 # for work time tracker
 cask "hubstaff"
+
+# for upwork
 cask "upwork"
 
 # for rasberry pi installation
