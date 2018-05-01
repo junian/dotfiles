@@ -123,7 +123,7 @@ brew "rsync"
 brew "screen"
 
 # wine
-brew "wine"
+# brew "wine"
 
 ##
 # Tap PHP
