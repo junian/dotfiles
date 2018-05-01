@@ -85,7 +85,7 @@ function gh-pages-init()
     touch README.md
     git add README.md
     git commit -a -m "First pages commit"
-    git push origin gh-pages
+    # git push origin gh-pages
 }
 
 # cleanup os junk files
