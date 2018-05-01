@@ -241,9 +241,6 @@ cask "google-backup-and-sync"
 # for managing cryptography keys
 cask "keybase"
 
-# For IRC chat
-# cask "colloquy"
-
 # For jabber
 # cask "adium"
 
