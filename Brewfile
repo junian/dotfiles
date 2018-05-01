@@ -32,6 +32,9 @@ brew "openssl"
 # archey for awesome intro scene
 brew "archey"
 
+# screenfetch is archey alternative
+brew "screenfetch"
+
 # update system perl
 brew "perl"
 
