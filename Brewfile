@@ -265,6 +265,8 @@ cask "etcher"
 # signal chat
 cask "signal"
 
+cask "bbedit"
+
 cask "dbeaver-community"
 
 # cask "safari-technology-preview"
