@@ -124,3 +124,8 @@ function passpwned() {
     echo "Your password is pawned $PWNED_COUNT times"
 }
 
+# start vbox vm headless mode
+function vbox-start() {
+    VBoxManage startvm "$1" --type headless
+}
+
