@@ -138,7 +138,7 @@ brew "rsync"
 brew "screen"
 
 # DNSCrypt to bypass your ISP DNS filtering
-brew "dnscrypt-proxy"
+brew "dnscrypt-proxy", restart_service: true
 
 # php
 brew "php@7.1"
