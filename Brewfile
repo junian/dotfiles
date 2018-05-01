@@ -262,6 +262,9 @@ cask "upwork"
 # for rasberry pi installation
 cask "etcher"
 
+# signal chat
+cask "signal"
+
 # cask "safari-technology-preview"
 
 # cask "santa"
