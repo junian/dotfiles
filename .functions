@@ -134,3 +134,7 @@ function vbox-stop() {
     VBoxManage controlvm "$1" poweroff
 }
 
+function hugo-new-post() {
+    hugo new posts/$(date +%Y)/$(date +%m)/${1}
+}
+
