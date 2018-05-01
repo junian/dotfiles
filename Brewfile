@@ -159,7 +159,7 @@ cask "firefox"
 # google chrome for development
 cask "google-chrome"
 # battery-friendly browser with latest feature
-cask "safari-technology-preview"
+cask "caskroom/versions/safari-technology-preview"
 
 #####
 #
