@@ -123,3 +123,5 @@ alias py-http='python -m http.server 8000'
 # vbox ls
 alias vbox-ls='VBoxManage list vms'
 
+alias bitbar-setdir='defaults write com.matryer.BitBar pluginsDirectory'
+
