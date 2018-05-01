@@ -1,12 +1,20 @@
-##
+#####
+#
 # This section is for core cli
+#
+#####
+
 tap "homebrew/core"
 
 # macOS Appstore cli
 brew "mas"
 
-##
+#####
+#
 # This is git-related brew
+#
+#####
+
 # update system git
 brew "git"
 # add git-lfs support
