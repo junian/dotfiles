@@ -187,7 +187,10 @@ cask "cocoarestclient"
 cask "coconutbattery"
 
 # to see everything in your disk
-cask "disk-inventory-x"
+# cask "disk-inventory-x"
+
+# disk inventory x alternative
+cask "grandperspective"
 
 # for Image editing
 cask "gimp"
