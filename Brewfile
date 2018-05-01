@@ -241,9 +241,6 @@ cask "google-backup-and-sync"
 # for managing cryptography keys
 cask "keybase"
 
-# For jabber
-# cask "adium"
-
 # for work time tracker
 cask "hubstaff"
 
