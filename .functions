@@ -134,6 +134,11 @@ function vbox-stop() {
     VBoxManage controlvm "$1" poweroff
 }
 
+function totp-paste() {
+    mkdir -p $HOME/.totp
+    umask 0077;pbpaste > $HOME/.totp/.$1
+}
+
 function hugo-new-post() {
     hugo new posts/$(date +%Y)/$(date +%m)/${1}
 }
