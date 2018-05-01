@@ -305,7 +305,8 @@ brew "go-delve/delve/delve"
 
 # to make your mac machine always on
 mas "Caffeine", id: 411246225
-
+# fore remote desktop
+mas "Microsoft Remote Desktop", id: 715768417
 # to annonate image quickly
 mas "Skitch", id: 425955336
 
