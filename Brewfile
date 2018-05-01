@@ -241,9 +241,6 @@ cask "google-backup-and-sync"
 # for managing cryptography keys
 cask "keybase"
 
-# Atom IDE
-# cask "atom"
-
 # For IRC chat
 # cask "colloquy"
 
