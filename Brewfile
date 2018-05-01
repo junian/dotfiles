@@ -130,9 +130,6 @@ brew "rsync"
 # screen cmd 
 brew "screen"
 
-# wine
-# brew "wine"
-
 # DNSCrypt to bypass your ISP DNS filtering
 brew "dnscrypt-proxy"
 
