@@ -129,3 +129,8 @@ function vbox-start() {
     VBoxManage startvm "$1" --type headless
 }
 
+# power off vbox vm
+function vbox-stop() {
+    VBoxManage controlvm "$1" poweroff
+}
+
