@@ -119,3 +119,7 @@ alias msbuild-debug='nuget restore && msbuild'
 
 # start python http server
 alias py-http='python -m http.server 8000'
+
+# vbox ls
+alias vbox-ls='VBoxManage list vms'
+
