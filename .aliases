@@ -125,3 +125,5 @@ alias vbox-ls='VBoxManage list vms'
 
 alias bitbar-setdir='defaults write com.matryer.BitBar pluginsDirectory'
 
+alias dep-graph='dep status -dot | dot -T png | open -f -a /Applications/Preview.app'
+
