@@ -136,16 +136,24 @@ brew "dnscrypt-proxy"
 # php
 brew "php@7.1"
 
-##
+#####
+#
 # This section is for cask
+#
+#####
+
 tap "caskroom/cask"
 tap "caskroom/versions"
 
 # Use iTerm2 as main terminal
 cask "iterm2"
 
-##
-# install browsers
+#####
+# 
+# Web browsers
+#
+#####
+
 # firefox for security
 cask "firefox"
 # google chrome for development
@@ -153,15 +161,19 @@ cask "google-chrome"
 # battery-friendly browser with latest feature
 cask "safari-technology-preview"
 
-##
-# install text editors
+#####
+#
+# Text editors
+#
+#####
+
 # VSCode, the core IDE
 cask "visual-studio-code"
 # Brackets for CSS-ing
 cask "brackets"
 # Macvim for native and terminal usage
 cask "macvim"
-# Another lightwright text editor
+# Another lightweight text editor
 cask "textmate"
 # Android Studio
 cask "android-studio"
@@ -214,6 +226,7 @@ cask "inkscape"
 # sourcetree
 cask "sourcetree"
 
+# svn desktop client
 cask "svnx"
 
 # spotify to stream music
@@ -253,14 +266,25 @@ cask "etcher"
 # signal chat
 cask "signal"
 
+# for virtualizing linux
 cask "virtualbox"
 
+# for file editing
 cask "bbedit"
 
+# for database browsing
 cask "dbeaver-community"
 
+#####
+#
+# FUSE
+#
+#####
 
+# Support FUSE for macOS
 cask "osxfuse"
+
+# mount ssh to Finder
 brew "sshfs"
 
 # for golang delve
@@ -270,8 +294,11 @@ brew "go-delve/delve/delve"
 
 tap "homebrew/bundle"
 
-##
-# macOS App Store
+#####
+#
+# Apps from macOS App Store
+#
+#####
 
 # to make your mac machine always on
 mas "Caffeine", id: 411246225
