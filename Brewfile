@@ -128,6 +128,9 @@ brew "screen"
 # wine
 # brew "wine"
 
+# DNSCrypt to bypass your ISP DNS filtering
+brew "dnscrypt-proxy"
+
 # php
 brew "php@7.1"
 
@@ -167,10 +170,6 @@ cask "fastlane"
 
 # manage /etc/hosts with Gas Mask
 cask "gas-mask"
-
-# DNSCrypt to bypass your ISP DNS filtering
-# cask "dnscrypt"
-brew "dnscrypt-proxy"
 
 # to access SFTP/FTP/etc
 cask "cyberduck"
