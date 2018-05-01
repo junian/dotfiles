@@ -265,6 +265,8 @@ cask "etcher"
 # signal chat
 cask "signal"
 
+cask "virtualbox"
+
 cask "bbedit"
 
 cask "dbeaver-community"
