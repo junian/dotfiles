@@ -1,10 +1,17 @@
+# Taps
+
+tap "homebrew/core"
+tap "homebrew/bundle"
+tap "homebrew/services"
+tap "go-delve/delve"
+tap "caskroom/versions"
+tap "caskroom/cask"
+
 #####
 #
 # This section is for core cli
 #
 #####
-
-tap "homebrew/core"
 
 # macOS Appstore cli
 brew "mas"
@@ -141,9 +148,6 @@ brew "php@7.1"
 # This section is for cask
 #
 #####
-
-tap "caskroom/cask"
-tap "caskroom/versions"
 
 # Use iTerm2 as main terminal
 cask "iterm2"
@@ -290,11 +294,8 @@ cask "osxfuse"
 brew "sshfs"
 
 # for golang delve
-tap "go-delve/delve"
 
 brew "go-delve/delve/delve"
-
-tap "homebrew/bundle"
 
 #####
 #
