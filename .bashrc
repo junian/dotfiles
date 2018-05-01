@@ -11,7 +11,7 @@ export PATH="/usr/local/sbin:$PATH"
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 
 # Add GOPATH and add it into PATH
-export GOPATH=$HOME/.gowork
+export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
 # Add GOROOT path
