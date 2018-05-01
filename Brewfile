@@ -139,6 +139,7 @@ brew "php@7.1"
 ##
 # This section is for cask
 tap "caskroom/cask"
+tap "caskroom/versions"
 
 # Use iTerm2 as main terminal
 cask "iterm2"
