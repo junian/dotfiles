@@ -169,6 +169,8 @@ cask "caskroom/versions/safari-technology-preview"
 
 # VSCode, the core IDE
 cask "visual-studio-code"
+# VSCode insider version
+cask "caskroom/versions/visual-studio-code-insiders"
 # Brackets for CSS-ing
 cask "brackets"
 # Macvim for native and terminal usage
