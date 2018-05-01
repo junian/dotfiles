@@ -125,12 +125,8 @@ brew "screen"
 # wine
 # brew "wine"
 
-##
-# Tap PHP
-tap "homebrew/homebrew-php"
-
-brew "php71"
-brew "php71-xdebug"
+# php
+brew "php@7.1"
 
 ##
 # This section is for cask
