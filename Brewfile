@@ -146,8 +146,6 @@ cask "iterm2"
 
 ##
 # install browsers
-# Opera for entertainment (and VPN)
-# cask "opera"
 # firefox for security
 cask "firefox"
 # google chrome for development
