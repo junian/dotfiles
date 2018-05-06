@@ -127,3 +127,5 @@ alias bitbar-setdir='defaults write com.matryer.BitBar pluginsDirectory'
 
 alias dep-graph='dep status -dot | dot -T png | open -f -a /Applications/Preview.app'
 
+alias ls='ls -GFh'
+
