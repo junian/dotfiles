@@ -129,3 +129,5 @@ alias dep-graph='dep status -dot | dot -T png | open -f -a /Applications/Preview
 
 alias ls='ls -GFh'
 
+alias grep='grep --color=auto'
+
