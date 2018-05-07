@@ -189,6 +189,8 @@ cask "macvim"
 cask "textmate"
 # Android Studio
 cask "android-studio"
+# sublime text
+cask "sublime-text"
 
 # manage iOS certificate with fastlane
 cask "fastlane"
