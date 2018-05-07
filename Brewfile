@@ -143,6 +143,9 @@ brew "dnscrypt-proxy", restart_service: true
 # php
 brew "php@7.1"
 
+# pandoc
+brew "pandoc"
+
 #####
 #
 # This section is for cask
