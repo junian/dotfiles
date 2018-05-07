@@ -146,6 +146,9 @@ brew "php@7.1"
 # pandoc
 brew "pandoc"
 
+# terminal web browser
+brew "lynx"
+
 #####
 #
 # This section is for cask
