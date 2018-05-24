@@ -3,7 +3,7 @@
 tap "homebrew/core"
 tap "homebrew/bundle"
 tap "homebrew/services"
-tap "go-delve/delve"
+# tap "go-delve/delve"
 tap "caskroom/versions"
 tap "caskroom/cask"
 
@@ -306,7 +306,7 @@ brew "sshfs"
 
 # for golang delve
 
-brew "go-delve/delve/delve"
+# brew "go-delve/delve/delve"
 
 #####
 #
