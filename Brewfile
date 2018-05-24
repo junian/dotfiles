@@ -149,6 +149,9 @@ brew "pandoc"
 # terminal web browser
 brew "lynx"
 
+# colored cat
+brew "bat"
+
 #####
 #
 # This section is for cask
