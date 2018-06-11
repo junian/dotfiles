@@ -131,3 +131,5 @@ alias ls='ls -GFh'
 
 alias grep='grep --color=auto'
 
+alias unity='open -a /Applications/Unity/Unity.app'
+
