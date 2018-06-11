@@ -81,3 +81,6 @@ let g:airline_theme='luna'
 " colorscheme config
 colorscheme zenburn
 
+" enable mouse support
+:set mouse=a
+
