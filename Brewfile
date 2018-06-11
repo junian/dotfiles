@@ -138,7 +138,7 @@ brew "rsync"
 brew "screen"
 
 # DNSCrypt to bypass your ISP DNS filtering
-brew "dnscrypt-proxy", restart_service: true
+brew "dnscrypt-proxy"
 
 # php
 brew "php@7.1"
@@ -250,7 +250,7 @@ cask "svnx"
 cask "spotify"
 
 # Listen Spotify without ad
-cask "spotifree"
+# cask "spotifree"
 
 # skype for chatting
 cask "skype"
@@ -285,6 +285,9 @@ cask "signal"
 
 # for virtualizing linux
 cask "virtualbox"
+
+# dotnet
+cask "dotnet-sdk"
 
 # for file editing
 cask "bbedit"
