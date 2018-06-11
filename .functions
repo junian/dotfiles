@@ -105,6 +105,7 @@ function oscleanup()
     )
 
     for i in "${trashlist[@]}"; do
+	echo "Trashing ${i}"
         trash "${i}"
     done
 
