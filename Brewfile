@@ -158,6 +158,18 @@ brew "bash-completion"
 # translate from shell
 brew 'translate-shell'
 
+# cmake
+brew 'cmake'
+
+# itpp
+brew 'itpp'
+
+# boost lib
+brew 'boost'
+
+# rtlsdr
+brew 'librtlsdr'
+
 #####
 #
 # This section is for cask
