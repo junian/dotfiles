@@ -155,6 +155,9 @@ brew "bat"
 # bash auto complete
 brew "bash-completion"
 
+# translate from shell
+brew 'translate-shell'
+
 #####
 #
 # This section is for cask
