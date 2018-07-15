@@ -113,7 +113,7 @@ function oscleanup()
 
 # curl to get title of url
 function curl-title() {
-    curl -sL $1 | pup 'title text{}'
+    curl -sL --compressed $1 | pup 'title text{}' | tr -d '\n'
 }
 
 # check if your password is pwned
