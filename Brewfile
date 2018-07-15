@@ -278,7 +278,7 @@ cask "docker"
 
 # best mysql client
 # cask "mysqlworkbench"
-cask "sequel-pro"
+# cask "sequel-pro"
 
 # HockeyApp
 cask "hockey"
@@ -299,7 +299,7 @@ cask "upwork"
 cask "etcher"
 
 # signal chat
-cask "signal"
+# cask "signal"
 
 # for virtualizing linux
 cask "virtualbox"
