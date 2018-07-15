@@ -133,3 +133,5 @@ alias grep='grep --color=auto'
 
 alias unity='open -a /Applications/Unity/Unity.app'
 
+alias git-author="git log -1 --pretty=format:'%an <%aE>'"
+
