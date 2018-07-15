@@ -2,6 +2,8 @@ if [ -f ~/.bashrc ]; then
     source ~/.bashrc
 fi
 
+[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
+
 # Display computer stats when logged in into shell 
 if command -v archey >/dev/null 2>&1; then
     archey --offline
