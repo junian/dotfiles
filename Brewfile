@@ -152,6 +152,9 @@ brew "lynx"
 # colored cat
 brew "bat"
 
+# bash auto complete
+brew "bash-completion"
+
 #####
 #
 # This section is for cask
