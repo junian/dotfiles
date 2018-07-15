@@ -148,7 +148,18 @@ function hugo-new-post() {
     hugo new posts/$(date +%Y)/$(date +%m)/${1}
 }
 
-function cat-md() {
-    pandoc $1 | lynx -stdin
+function md-to-html() {
+   pandoc $1 \
+       --to=html5 \
+       --css=$HOME/.local/share/markdown-css/tufte.css \
+       --highlight-style=haddock \
+       --self-contained
 }
 
+function cat-md() {
+    md-to-html $1 | lynx -stdin
+}
+
+function pbcopy-md() {
+	md-to-html $1 | textutil -stdin -format html -convert rtf -stdout | pbcopy
+}
