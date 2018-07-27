@@ -168,3 +168,8 @@ function cat-md() {
 function pbcopy-md() {
 	md-to-html $1 | textutil -stdin -format html -convert rtf -stdout | pbcopy
 }
+
+function md-reference() {
+    echo "[$(awk-title $1)]($1)"
+}
+
