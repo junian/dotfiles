@@ -116,6 +116,11 @@ function curl-title() {
     curl -sL --compressed $1 | pup 'title text{}' | tr -d '\n'
 }
 
+# get title
+function awk-title() {
+    curl -sL --compressed $1 | awk -vRS="</title>" '/<title>/{gsub(/.*<title>|\n+/,"");print;exit}' | tr -d '\n'
+}
+
 # check if your password is pwned
 function passpwned() {
     HASHED_PASS=$(echo -n $1 | shasum -a 1 | awk '{print toupper($1)}')
