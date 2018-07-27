@@ -192,6 +192,9 @@ cask "google-chrome"
 # battery-friendly browser with latest feature
 cask "caskroom/versions/safari-technology-preview"
 
+# Mono MDK
+cask "mono-mdk"
+
 #####
 #
 # Text editors
