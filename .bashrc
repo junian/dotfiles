@@ -32,6 +32,9 @@ export PATH="$HOME/.yarn/bin:$PATH"
 # fastlane
 export PATH="$HOME/.fastlane/bin:$PATH"
 
+# mono registry
+export MONO_REGISTRY_PATH=~/.mono/registry
+
 # disable brew analytics
 export HOMEBREW_NO_ANALYTICS=1
 
