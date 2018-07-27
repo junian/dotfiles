@@ -38,6 +38,9 @@ export MONO_REGISTRY_PATH=~/.mono/registry
 # new curl
 export PATH="/usr/local/opt/curl/bin:$PATH"
 
+# rustup
+export PATH="$HOME/.cargo/bin:$PATH"
+
 # disable brew analytics
 export HOMEBREW_NO_ANALYTICS=1
 
