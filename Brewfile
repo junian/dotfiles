@@ -192,8 +192,28 @@ cask "google-chrome"
 # battery-friendly browser with latest feature
 cask "caskroom/versions/safari-technology-preview"
 
-# Mono MDK
+######
+#
+# Visual Studio and Xamarin
+#
+######
+
+cask "java8"
+
+cask "android-sdk"
+
 cask "mono-mdk"
+
+cask "xamarin-mac"
+
+cask "xamarin-ios"
+
+cask "xamarin-android"
+
+cask "dotnet-sdk"
+
+cask "visual-studio"
+
 
 #####
 #
@@ -306,9 +326,6 @@ cask "etcher"
 
 # for virtualizing linux
 cask "virtualbox"
-
-# dotnet
-cask "dotnet-sdk"
 
 # for file editing
 cask "bbedit"
