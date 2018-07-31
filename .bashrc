@@ -21,7 +21,11 @@ export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:/usr/local/opt/go/libexec/bin
 
 # Set ANDROID_HOME
-export ANDROID_HOME=$HOME/sdk/android-sdk
+export ANDROID_HOME="/usr/local/share/android-sdk"
+
+export ANDROID_SDK_ROOT="/usr/local/share/android-sdk"
+
+export ANDROID_NDK_HOME="$HOME/sdk/android-ndk-r13b"
 
 # opt out dotnet
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
@@ -53,7 +57,7 @@ export TERM=xterm-256color
 # Add JAVA paths
 # export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home"
 export JAVA_HOME=$(/usr/libexec/java_home)
-export JAVA_OPTS="-Djava.security.egd=file:/dev/./urandom -Djava.awt.headless=true -Xms1024m -Xmx2048m -XX:MaxPermSize=256m -XX:+UseConcMarkSweepGC"
+# export JAVA_OPTS="-Djava.security.egd=file:/dev/./urandom -Djava.awt.headless=true -Xms1024m -Xmx2048m -XX:MaxPermSize=256m -XX:+UseConcMarkSweepGC"
 
 export FREETYPE_PROPERTIES="truetype:interpreter-version=35"
 
