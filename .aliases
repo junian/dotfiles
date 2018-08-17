@@ -137,3 +137,4 @@ alias git-author="git log -1 --pretty=format:'%an <%aE>'"
 
 alias date-rfc3339="date +%Y-%m-%dT%T%z"
 
+alias tree-ascii='tree --charset=ascii'
