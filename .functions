@@ -149,6 +149,10 @@ function totp() {
     oathtool --totp -b "$(cat $HOME/.totp/.${1})";
 }
 
+function hugo-new-episode() {
+    hugo new posts/$(date +%Y)/${1}
+}
+
 function hugo-new-post() {
     hugo new posts/$(date +%Y)/$(date +%m)/${1}
 }
