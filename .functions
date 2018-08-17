@@ -177,3 +177,25 @@ function md-reference() {
     echo "[$(awk-title $1)]($1)"
 }
 
+function magick-crop() {
+    convert $1 -geometry 1280x640^ -gravity center -crop 1280x640+0+0 cover-$1
+}
+
+function cover-optim() {
+	echo "Cropping $1 to 1280x640 and save it into cover-$1"
+	magick-crop $1
+	
+	if [ ${1: -4} == ".png" ]; then
+	   echo "It's a PNG, execute ImageOptim with ImageAlpha"
+	   imageoptim --imagealpha cover-$1
+	elif [ ${1: -4} == ".jpg" ] || [ ${1: -5} == ".jpeg" ]; then
+	   echo "It's a JPEG, execute ImageOptim"
+	   imageoptim cover-$1
+	elif [ ${1: -4} == ".gif" ]; then
+		echo "It's a GIF (pronounced gif), execute ImageOptim"
+		imageoptim cover-$1
+	else
+	   echo "Unknown extenstion, trying execute ImageOptim anyway"
+	   imageoptim cover-$1
+	fi
+}
