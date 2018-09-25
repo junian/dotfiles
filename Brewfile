@@ -170,6 +170,8 @@ brew 'boost'
 # rtlsdr
 brew 'librtlsdr'
 
+brew 'imageoptim-cli'
+
 #####
 #
 # This section is for cask
@@ -262,6 +264,8 @@ cask "gimp"
 
 # optimize image size without losing quality
 cask "imageoptim"
+
+cask "imagealpha"
 
 # To extract/compress files
 cask "keka"
@@ -356,9 +360,9 @@ brew "sshfs"
 #####
 
 # to make your mac machine always on
-mas "Caffeine", id: 411246225
+# mas "Caffeine", id: 411246225
 # fore remote desktop
-mas "Microsoft Remote Desktop", id: 715768417
+# mas "Microsoft Remote Desktop", id: 715768417
 # to annonate image quickly
-mas "Skitch", id: 425955336
+# mas "Skitch", id: 425955336
 
