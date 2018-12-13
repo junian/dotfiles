@@ -87,7 +87,7 @@ brew "httpie"
 brew "hugo"
 
 # using jenkins for CI
-brew "jenkins"
+brew "jenkins-lts"
 
 # use kotlin as java alternative
 brew "kotlin"
@@ -192,7 +192,9 @@ cask "firefox"
 # google chrome for development
 cask "google-chrome"
 # battery-friendly browser with latest feature
-cask "caskroom/versions/safari-technology-preview"
+# cask "caskroom/versions/safari-technology-preview"
+# brave
+cask "brave-browser"
 
 ######
 #
@@ -200,7 +202,7 @@ cask "caskroom/versions/safari-technology-preview"
 #
 ######
 
-cask "java8"
+cask "corretto"
 
 cask "android-sdk"
 
@@ -228,7 +230,7 @@ cask "visual-studio-code"
 # VSCode insider version
 cask "caskroom/versions/visual-studio-code-insiders"
 # Brackets for CSS-ing
-cask "brackets"
+# cask "brackets"
 # Macvim for native and terminal usage
 cask "macvim"
 # Another lightweight text editor
@@ -260,7 +262,8 @@ cask "coconutbattery"
 cask "grandperspective"
 
 # for Image editing
-cask "gimp"
+# cask "gimp"
+cask "krita"
 
 # optimize image size without losing quality
 cask "imageoptim"
@@ -283,7 +286,7 @@ cask "handbrake"
 cask "appcleaner"
 
 # inkscape for vector design
-cask "inkscape"
+# cask "inkscape"
 
 # sourcetree
 cask "sourcetree"
@@ -314,7 +317,7 @@ cask "hockey"
 cask "google-backup-and-sync"
 
 # for managing cryptography keys
-cask "keybase"
+# cask "keybase"
 
 # for work time tracker
 cask "hubstaff"
@@ -342,6 +345,9 @@ cask "dbeaver-community"
 # FUSE
 #
 #####
+
+# Dropbox
+cask "dropbox"
 
 # Support FUSE for macOS
 cask "osxfuse"

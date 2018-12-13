@@ -28,7 +28,7 @@ alias tomcat-start='sh /usr/local/Cellar/tomcat\@6/6.0.45/bin/startup.sh'
 alias tomcat-stop='sh /usr/local/Cellar/tomcat\@6/6.0.45/bin/shutdown.sh'
 
 # brew update + upgrade + cleanup
-alias brew-up='brew update && brew update && brew upgrade && brew prune && brew cleanup -s -v && brew doctor && trash `brew --cache`'
+alias brew-up='brew update && brew update && brew upgrade && brew prune && brew cleanup -s && brew doctor && trash `brew --cache`'
 
 # brew bundle global
 alias brew-bundle='brew bundle --global --verbose'
@@ -70,10 +70,10 @@ alias show-extensions='defaults write NSGlobalDomain AppleShowAllExtensions -boo
 alias appcleaner='open -a /Applications/AppCleaner.app/'
 
 # set python as python3 alias
-alias python='/usr/local/bin/python3'
+# alias python='/usr/local/bin/python3'
 
 # set pip as pip3 alias
-alias pip='/usr/local/bin/pip3'
+# alias pip='/usr/local/bin/pip3'
 
 # rsync dry run
 alias rsync-dry-run='rsync -avh --dry-run'
