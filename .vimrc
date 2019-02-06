@@ -20,7 +20,7 @@ Plugin 'junegunn/goyo.vim'
 Plugin 'junegunn/limelight.vim'
 
 " YCM for auto-complete
-Plugin 'Valloric/YouCompleteMe'
+" Plugin 'Valloric/YouCompleteMe'
 
 " vim-airline status bar
 Plugin 'vim-airline/vim-airline'
