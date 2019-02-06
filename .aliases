@@ -93,6 +93,8 @@ alias npp='wine ~/.wine/drive_c/Program\ Files/Notepad++/notepad++.exe'
 # ruby bundle shortcut
 alias ruby-bundle='bundle install --system --gemfile $HOME/.Gemfile && rm $HOME/.Gemfile.lock'
 
+alias git-add-mirror='git remote set-url --add --push origin'
+
 # archive git repository
 alias git-archive='git archive `git rev-parse --abbrev-ref HEAD` --format=zip --output=$HOME/Documents/`basename $PWD`-`date "+%Y%m%d%H%M"`-`git rev-parse --short HEAD`.zip'
 
