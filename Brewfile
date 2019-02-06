@@ -3,9 +3,7 @@
 tap "homebrew/core"
 tap "homebrew/bundle"
 tap "homebrew/services"
-# tap "go-delve/delve"
-tap "caskroom/versions"
-tap "caskroom/cask"
+tap "homebrew/cask-versions"
 
 #####
 #
@@ -196,6 +194,9 @@ cask "google-chrome"
 # brave
 cask "brave-browser"
 
+# RSS reader
+cask "vienna"
+
 ######
 #
 # Visual Studio and Xamarin
@@ -228,7 +229,7 @@ cask "visual-studio"
 # VSCode, the core IDE
 cask "visual-studio-code"
 # VSCode insider version
-cask "caskroom/versions/visual-studio-code-insiders"
+cask "visual-studio-code-insiders"
 # Brackets for CSS-ing
 # cask "brackets"
 # Macvim for native and terminal usage
@@ -274,7 +275,7 @@ cask "imagealpha"
 cask "keka"
 
 # I prefer libreoffice for office stuff
-cask "libreoffice"
+# cask "libreoffice"
 
 # Watch favorite movies with VLC
 cask "vlc"
@@ -326,7 +327,7 @@ cask "hubstaff"
 cask "upwork"
 
 # for rasberry pi installation
-cask "etcher"
+cask "balenaetcher"
 
 # signal chat
 # cask "signal"
