@@ -91,11 +91,18 @@ function gh-pages-init()
 # cleanup os junk files
 function oscleanup()
 {
+    echo "Cleaning up xcode emulator's data"
+    xcrun simctl delete unavailable
+
+    echo "Cleaning up nuget cache"
+    nuget locals all -clear
+
+    echo "Trashing temporary files"
     trashlist=(
         /tmp/*
         ~/Library/Caches/*
         ~/Library/Logs/*
-        /var/log/*
+        #/var/log/*
         ~/Library/Containers/com.apple.mail/Data/Library/Mail\ Downloads/*
         ~/Library/Developer/Xcode/DerivedData/*
         ~/Library/Developer/Xcode/Archives/*
