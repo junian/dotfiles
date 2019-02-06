@@ -120,7 +120,7 @@ alias msbuild-release='nuget restore && msbuild /t:Rebuild /p:Configuration=Rele
 alias msbuild-debug='nuget restore && msbuild'
 
 # start python http server
-alias py-http='python -m http.server 8000'
+alias py-http='python3 -m http.server 8000'
 
 # vbox ls
 alias vbox-ls='VBoxManage list vms'
