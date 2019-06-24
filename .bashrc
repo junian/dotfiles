@@ -60,11 +60,10 @@ export PATH="$HOME/.fastlane/bin:$PATH"
 # mono registry
 export MONO_REGISTRY_PATH=~/.mono/registry
 
-# new curl
-export PATH="/usr/local/opt/curl/bin:$PATH"
-
 # rustup
 export PATH="$HOME/.cargo/bin:$PATH"
+
+export PATH="/usr/local/miniconda3/bin:$PATH"
 
 # disable brew analytics
 export HOMEBREW_NO_ANALYTICS=1
