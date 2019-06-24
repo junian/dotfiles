@@ -143,3 +143,12 @@ alias git-author="git log -1 --pretty=format:'%an <%aE>'"
 alias date-rfc3339="date +%Y-%m-%dT%T%z"
 
 alias tree-ascii='tree --charset=ascii'
+
+alias pkg-ls='pkgutil --pkgs'
+
+alias pkg-files='pkgutil --files'
+
+alias pkg-info='pkgutil --pkg-info'
+
+alias pkg-forget='sudo pkgutil --forget'
+
