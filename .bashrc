@@ -7,6 +7,27 @@ for file in ~/.{aliases,functions,myaliases,myfunctions}; do
 done;
 unset file;
 
+# Add mysql client from brew
+export PATH="/usr/local/opt/mysql-client/bin:$PATH"
+
+# Add ruby from Brew
+export PATH="/usr/local/opt/ruby/bin:$PATH"
+
+# Add python from Brew
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+
+# Add curl-openssl from Brew
+export PATH="/usr/local/opt/curl-openssl/bin:$PATH"
+
+# Add openssl from Brew
+export PATH="/usr/local/opt/openssl/bin:$PATH"
+
+# Add qt from Brew
+export PATH="/usr/local/opt/qt/bin:$PATH"
+
+# Add gnu-getopt from Homebrew
+export PATH="/usr/local/opt/gnu-getopt/bin:$PATH"
+
 # Add /usr/local/sbin to PATH used by Homebrew
 export PATH="/usr/local/sbin:$PATH"
 
