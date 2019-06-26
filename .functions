@@ -97,6 +97,9 @@ function oscleanup()
     echo "Cleaning up nuget cache"
     nuget locals all -clear
 
+    echo "Cleaning composer"
+    composer clearcache
+
     echo "Trashing temporary files"
     trashlist=(
         /tmp/*
@@ -107,6 +110,7 @@ function oscleanup()
         ~/Library/Developer/Xcode/DerivedData/*
         ~/Library/Developer/Xcode/Archives/*
         ~/Library/Developer/Xcode/iOS\ Device\ Logs/*
+		~/Library/Developer/Xcode/iOS\ DeviceSupport/*
         ~/Library/Containers/*/Data/Library/Logs/*
         ~/Library/Containers/*/Data/Library/Caches/*
     )
