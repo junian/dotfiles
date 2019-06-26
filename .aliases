@@ -28,7 +28,7 @@ alias tomcat-start='sh /usr/local/Cellar/tomcat\@6/6.0.45/bin/startup.sh'
 alias tomcat-stop='sh /usr/local/Cellar/tomcat\@6/6.0.45/bin/shutdown.sh'
 
 # brew update + upgrade + cleanup
-alias brew-up='brew update && brew update && brew upgrade && brew cleanup -s && brew doctor && trash `brew --cache`'
+alias brew-up='brew update; brew update; brew upgrade; brew cleanup -s; brew doctor; trash `brew --cache`'
 
 # brew bundle global
 alias brew-bundle='brew bundle --global --verbose'
