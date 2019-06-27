@@ -230,3 +230,9 @@ function cover-optim() {
 	   imageoptim cover-$1
 	fi
 }
+
+function md-to-docx()
+{
+  pandoc -o $2 -f markdown -t docx $1
+}
+
