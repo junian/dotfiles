@@ -152,3 +152,5 @@ alias pkg-info='pkgutil --pkg-info'
 
 alias pkg-forget='sudo pkgutil --forget'
 
+alias ricloud='python2 -m ricloud'
+
