@@ -181,7 +181,7 @@ function totp() {
 }
 
 function hugo-new-episode() {
-    hugo new posts/$(date +%Y)/${1}
+    hugo new ${1}/$(date +%Y)/${2}
 }
 
 function hugo-new-post() {
