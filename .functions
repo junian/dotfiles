@@ -241,6 +241,11 @@ function docx-to-md()
   pandoc -o $2 -f docx -t markdown $1
 }
 
+function docker-stop-rm()
+{
+  docker stop $1
+  docker rm $1
+}
 function run-sqlserver-latest()
 {
     GENERATED_SA_PASSWORD=`LC_ALL=C tr -dc 'A-Za-z0-9!@#$%^&*()' </dev/urandom | head -c 13 ; echo`
