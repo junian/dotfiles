@@ -12,7 +12,7 @@ tap "homebrew/cask-versions"
 #####
 
 # macOS Appstore cli
-brew "mas"
+# brew "mas"
 
 #####
 #
@@ -31,7 +31,7 @@ brew "git-flow-avh"
 brew "svn"
 
 # install mercurial hg
-brew "hg"
+# brew "hg"
 
 # terminal multiplexer
 brew "tmux"
@@ -46,7 +46,7 @@ brew "openssl"
 brew "archey"
 
 # screenfetch is archey alternative
-brew "screenfetch"
+# brew "screenfetch"
 
 # update system perl
 brew "perl"
@@ -55,7 +55,7 @@ brew "perl"
 brew "colordiff"
 
 # update system curl
-brew "curl"
+brew "curl-openssl"
 
 # duti used for extension assignment
 brew "duti"
@@ -64,31 +64,28 @@ brew "duti"
 brew "gnupg"
 
 # install lua
-brew "lua"
+# brew "lua"
 
 # install latest go-lang
 brew "go"
 
 # update system grep
-brew "grep"
-
-# install python2
-brew "python"
+# brew "grep"
 
 # install python3
-brew "python3"
+brew "python"
 
 # httpie for awesome curl alternative
-brew "httpie"
+# brew "httpie"
 
 # hugo for static site gen
 brew "hugo"
 
 # using jenkins for CI
-brew "jenkins-lts"
+# brew "jenkins-lts"
 
 # use kotlin as java alternative
-brew "kotlin"
+# brew "kotlin"
 
 # nmap for scan open port
 brew "nmap"
@@ -112,7 +109,7 @@ brew "speedtest-cli"
 brew "ssh-copy-id"
 
 # for tomcat server
-brew "tomcat@6"
+# brew "tomcat@6"
 
 # to delete file to trash
 brew "trash"
@@ -139,7 +136,7 @@ brew "screen"
 brew "dnscrypt-proxy"
 
 # php
-brew "php@7.1"
+brew "php"
 
 # pandoc
 brew "pandoc"
@@ -160,13 +157,13 @@ brew 'translate-shell'
 brew 'cmake'
 
 # itpp
-brew 'itpp'
+# brew 'itpp'
 
 # boost lib
-brew 'boost'
+# brew 'boost'
 
 # rtlsdr
-brew 'librtlsdr'
+# brew 'librtlsdr'
 
 brew 'imageoptim-cli'
 
@@ -186,7 +183,7 @@ cask "iterm2"
 #####
 
 # firefox for security
-cask "firefox"
+# cask "firefox"
 # google chrome for development
 cask "google-chrome"
 # battery-friendly browser with latest feature
@@ -203,7 +200,7 @@ cask "vienna"
 #
 ######
 
-cask "corretto"
+# cask "corretto8"
 
 cask "android-sdk"
 
@@ -215,7 +212,7 @@ cask "xamarin-ios"
 
 cask "xamarin-android"
 
-cask "dotnet-sdk"
+# cask "dotnet-sdk"
 
 cask "visual-studio"
 
@@ -237,9 +234,9 @@ cask "macvim"
 # Another lightweight text editor
 cask "textmate"
 # Android Studio
-cask "android-studio"
+# cask "android-studio"
 # sublime text
-cask "sublime-text"
+# cask "sublime-text"
 
 # manage iOS certificate with fastlane
 cask "fastlane"
@@ -260,11 +257,11 @@ cask "cocoarestclient"
 cask "coconutbattery"
 
 # disk inventory x alternative
-cask "grandperspective"
+# cask "grandperspective"
 
 # for Image editing
 # cask "gimp"
-cask "krita"
+# cask "krita"
 
 # optimize image size without losing quality
 cask "imageoptim"
@@ -278,7 +275,10 @@ cask "keka"
 # cask "libreoffice"
 
 # Watch favorite movies with VLC
-cask "vlc"
+# cask "vlc"
+
+# VLC alternative
+cask "iina"
 
 # video transcoding
 cask "handbrake"
@@ -290,13 +290,16 @@ cask "appcleaner"
 # cask "inkscape"
 
 # sourcetree
-cask "sourcetree"
+#cask "sourcetree"
+
+# fork, sourcetree alternative
+cask "fork"
 
 # svn desktop client
 cask "svnx"
 
 # spotify to stream music
-cask "spotify"
+# cask "spotify"
 
 # Listen Spotify without ad
 # cask "spotifree"
@@ -312,7 +315,7 @@ cask "docker"
 # cask "sequel-pro"
 
 # HockeyApp
-cask "hockey"
+# cask "hockey"
 
 # Google Drive
 cask "google-backup-and-sync"
@@ -327,19 +330,19 @@ cask "hubstaff"
 cask "upwork"
 
 # for rasberry pi installation
-cask "balenaetcher"
+# cask "balenaetcher"
 
 # signal chat
 # cask "signal"
 
 # for virtualizing linux
-cask "virtualbox"
+# cask "virtualbox"
 
 # for file editing
-cask "bbedit"
+# cask "bbedit"
 
 # for database browsing
-cask "dbeaver-community"
+# cask "dbeaver-community"
 
 #####
 #
@@ -349,6 +352,12 @@ cask "dbeaver-community"
 
 # Dropbox
 cask "dropbox"
+
+# OneDrive
+# cask "onedrive"
+
+# For window management like windows
+cask "spectacle"
 
 # Support FUSE for macOS
 cask "osxfuse"
