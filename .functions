@@ -9,6 +9,12 @@ function eof-check() {
   fi
 }
 
+# Clean bin/ and obj/
+function clean-bin-obj() {
+  find $HOME/Documents/ -iname "bin" -print0 | xargs -0 trash
+  find $HOME/Documents/ -iname "obj" -print0 | xargs -0 trash
+}
+
 # Open man page as PDF
 function manpdf() {
  man -t "${1}" | open -f -a /Applications/Preview.app/
