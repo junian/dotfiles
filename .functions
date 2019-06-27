@@ -241,3 +241,20 @@ function docx-to-md()
   pandoc -o $2 -f docx -t markdown $1
 }
 
+function run-sqlserver-latest()
+{
+    GENERATED_SA_PASSWORD=`LC_ALL=C tr -dc 'A-Za-z0-9!@#$%^&*()' </dev/urandom | head -c 13 ; echo`
+
+    echo "Login to SQL server with:"
+    echo "username: sa"
+    echo "password: $GENERATED_SA_PASSWORD"
+    echo "Make sure to write it down."
+    echo ""
+
+    docker run \
+        -e 'ACCEPT_EULA=Y' \
+        -e "SA_PASSWORD=$GENERATED_SA_PASSWORD" \
+        -p 1433:1433 \
+        -d \
+        microsoft/mssql-server-linux:2017-latest
+}
