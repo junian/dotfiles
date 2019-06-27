@@ -1,5 +1,14 @@
 #!/bin/bash
 
+function eof-check() {
+  if awk  '/\r$/{exit 0;} 1{exit 1;}' $1
+  then
+    echo "DOS"
+  else
+    echo "UNIX"
+  fi
+}
+
 # Open man page as PDF
 function manpdf() {
  man -t "${1}" | open -f -a /Applications/Preview.app/
