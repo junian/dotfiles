@@ -15,6 +15,11 @@ function clean-bin-obj() {
   find $HOME/Documents/ -iname "obj" -print0 | xargs -0 trash
 }
 
+# Clean node_modules produced by npm
+function clean-node_modules() {
+  find $HOME/Documents/ -iname "node_modules" -print0 | xargs -0 trash
+}
+
 # Open man page as PDF
 function manpdf() {
  man -t "${1}" | open -f -a /Applications/Preview.app/
