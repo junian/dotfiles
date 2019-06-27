@@ -246,6 +246,24 @@ function docker-stop-rm()
   docker stop $1
   docker rm $1
 }
+
+function run-mysql57()
+{
+    GENERATED_ROOT_PASSWORD=`LC_ALL=C tr -dc 'A-Za-z0-9!@#$%^&*()' </dev/urandom | head -c 13 ; echo`
+
+    echo "Login to MySQL with:"
+    echo "username: root"
+    echo "password: $GENERATED_ROOT_PASSWORD"
+    echo "Make sure to write it down."
+    echo ""
+
+    docker run \
+        -e "MYSQL_ROOT_PASSWORD=$GENERATED_ROOT_PASSWORD" \
+        -p 3306:3306 \
+        -d \
+        mysql:5.7
+}
+
 function run-sqlserver-latest()
 {
     GENERATED_SA_PASSWORD=`LC_ALL=C tr -dc 'A-Za-z0-9!@#$%^&*()' </dev/urandom | head -c 13 ; echo`
