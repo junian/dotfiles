@@ -236,3 +236,8 @@ function md-to-docx()
   pandoc -o $2 -f markdown -t docx $1
 }
 
+function docx-to-md()
+{
+  pandoc -o $2 -f docx -t markdown $1
+}
+
