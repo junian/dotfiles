@@ -158,3 +158,5 @@ alias sleepless="pmset -g assertions | egrep '(PreventUserIdleSystemSleep|Preven
 
 alias scan-port="nmap -sT -p-"
 
+alias adb-screenshot="adb exec-out screencap -p >"
+
