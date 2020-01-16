@@ -154,3 +154,5 @@ alias pkg-forget='sudo pkgutil --forget'
 
 alias ricloud='python2 -m ricloud'
 
+alias sleepless="pmset -g assertions | egrep '(PreventUserIdleSystemSleep|PreventUserIdleDisplaySleep)'"
+
