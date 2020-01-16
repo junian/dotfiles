@@ -30,6 +30,7 @@ function manpdf() {
 extract() {
   if [ -f "$1" ]; then
     case "$1" in
+      *.7z)       7z e "$1"                             ;;
       *.tar.bz2)  tar -jxvf "$1"                        ;;
       *.tar.gz)   tar -zxvf "$1"                        ;;
       *.bz2)      bunzip2 "$1"                          ;;
@@ -117,8 +118,8 @@ function oscleanup()
     echo "Cleaning up nuget cache"
     nuget locals all -clear
 
-    echo "Cleaning composer"
-    composer clearcache
+    # echo "Cleaning composer"
+    # composer clearcache
 
     echo "Trashing temporary files"
     trashlist=(
@@ -281,3 +282,4 @@ function run-sqlserver-latest()
         -d \
         microsoft/mssql-server-linux:2017-latest
 }
+
