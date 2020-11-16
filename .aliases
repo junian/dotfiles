@@ -36,6 +36,9 @@ alias brew-bundle='brew bundle --global --verbose'
 # list keg-only brew
 alias brew-kegonly='brew info --json=v1 --installed | jq "map(select(.keg_only == true and .linked_keg != null) | .name)"'
 
+# list oudated brew
+alias brew-outdated='brew outdated --greedy'
+
 # run ffserver
 alias ffserver-run='ffserver -f /usr/local/etc/ffserver.conf'
 
