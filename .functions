@@ -283,3 +283,13 @@ function run-sqlserver-latest()
         microsoft/mssql-server-linux:2017-latest
 }
 
+function display-screen-info()
+{
+    if command -v neofetch >/dev/null 2>&1; then
+        neofetch
+    elif command -v archey >/dev/null 2>&1; then
+        archey --offline
+    elif command -v screenfetch >/dev/null 2>&1; then
+        screenfetch -E -d '+disk'
+    fi
+}
