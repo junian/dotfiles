@@ -46,7 +46,10 @@ export ANDROID_HOME="/usr/local/share/android-sdk"
 
 export ANDROID_SDK_ROOT="/usr/local/share/android-sdk"
 
-export ANDROID_NDK_HOME="$HOME/sdk/android-ndk-r13b"
+export ANDROID_NDK_HOME="$ANDROID_HOME/ndk-bundle"
+
+# Android platform tools (e.g. adb, fastboot)
+export PATH="$ANDROID_HOME/platform-tools:$PATH"
 
 # opt out dotnet
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
