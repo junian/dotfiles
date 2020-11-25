@@ -28,7 +28,7 @@ alias tomcat-start='sh /usr/local/Cellar/tomcat\@6/6.0.45/bin/startup.sh'
 alias tomcat-stop='sh /usr/local/Cellar/tomcat\@6/6.0.45/bin/shutdown.sh'
 
 # brew update + upgrade + cleanup
-alias brew-up='brew update; brew update; brew upgrade; brew cleanup -s; brew doctor; trash `brew --cache`'
+alias brew-up='brew update --verbose; brew upgrade --verbose; brew cleanup -s --verbose; brew doctor --verbose; trash `brew --cache`'
 
 # brew bundle global
 alias brew-bundle='brew bundle --global --verbose'
@@ -37,7 +37,7 @@ alias brew-bundle='brew bundle --global --verbose'
 alias brew-kegonly='brew info --json=v1 --installed | jq "map(select(.keg_only == true and .linked_keg != null) | .name)"'
 
 # list oudated brew
-alias brew-outdated='brew outdated --greedy'
+alias brew-outdated='brew outdated --greedy --verbose'
 
 # run ffserver
 alias ffserver-run='ffserver -f /usr/local/etc/ffserver.conf'
