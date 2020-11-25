@@ -1,4 +1,7 @@
 # sudo: auth account password session
+# Following line is to allow user to use Touch ID
+auth       sufficient     pam_tid.so
+# Following line is original from Big Sur
 auth       sufficient     pam_smartcard.so
 auth       required       pam_opendirectory.so
 account    required       pam_permit.so
