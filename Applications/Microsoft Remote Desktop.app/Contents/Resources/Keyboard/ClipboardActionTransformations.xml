@@ -40,35 +40,161 @@
     <!-- the default is US keyboard physical position for X C V -->
     <layout name="default">
         <transformations>
-            <!-- Command+X to Control+X -->
-            <transform>
-                <from command="1" key="X" />
-                <to control="1" key="X" />
-            </transform>
-            <!-- Command+C to Control+C -->
-            <transform>
-                <from command="1" key="C" />
-                <to control="1" key="C" />
-            </transform>
-            <!-- Command+V to Control+V -->
-            <transform>
-                <from command="1" key="V" />
-                <to control="1" key="V" />
-            </transform>
+
             <!-- Command+A to Control+A -->
             <transform>
                 <from command="1" key="A" />
                 <to control="1" key="A" />
             </transform>
-            <!-- Command+Z to Control+Z -->
+
+            <!-- Command+B to Control+B -->
             <transform>
-                <from command="1" key="Z" />
-                <to control="1" key="Z" />
+                <from command="1" key="B" />
+                <to control="1" key="B" />
             </transform>
+
+            <!-- Command+C to Control+C -->
+            <transform>
+                <from command="1" key="C" />
+                <to control="1" key="C" />
+            </transform>
+
+            <!-- Command+D to Control+D -->
+            <transform>
+                <from command="1" key="D" />
+                <to control="1" key="D" />
+            </transform>
+
+            <!-- Command+E to Control+E -->
+            <transform>
+                <from command="1" key="E" />
+                <to control="1" key="E" />
+            </transform>
+
             <!-- Command+F to Control+F -->
             <transform>
                 <from command="1" key="F" />
                 <to control="1" key="F" />
+            </transform>
+
+            <!-- Command+G to Control+G -->
+            <transform>
+                <from command="1" key="G" />
+                <to control="1" key="G" />
+            </transform>
+
+            <!-- Command+H to Control+H -->
+            <transform>
+                <from command="1" key="H" />
+                <to control="1" key="H" />
+            </transform>
+
+            <!-- Command+I to Control+I -->
+            <transform>
+                <from command="1" key="I" />
+                <to control="1" key="I" />
+            </transform>
+
+            <!-- Command+J to Control+J -->
+            <transform>
+                <from command="1" key="J" />
+                <to control="1" key="J" />
+            </transform>
+
+            <!-- Command+K to Control+K -->
+            <transform>
+                <from command="1" key="K" />
+                <to control="1" key="K" />
+            </transform>
+
+            <!-- Command+L to Control+L -->
+            <transform>
+                <from command="1" key="L" />
+                <to control="1" key="L" />
+            </transform>
+
+            <!-- Command+M to Control+M -->
+            <transform>
+                <from command="1" key="M" />
+                <to control="1" key="M" />
+            </transform>
+
+            <!-- Command+N to Control+N -->
+            <transform>
+                <from command="1" key="N" />
+                <to control="1" key="N" />
+            </transform>
+
+            <!-- Command+O to Control+O -->
+            <transform>
+                <from command="1" key="O" />
+                <to control="1" key="O" />
+            </transform>
+
+            <!-- Command+P to Control+P -->
+            <transform>
+                <from command="1" key="P" />
+                <to control="1" key="P" />
+            </transform>
+
+            <!-- Command+Q to Control+Q -->
+            <transform>
+                <from command="1" key="Q" />
+                <to control="1" key="Q" />
+            </transform>
+
+            <!-- Command+R to Control+R -->
+            <transform>
+                <from command="1" key="R" />
+                <to control="1" key="R" />
+            </transform>
+
+            <!-- Command+S to Control+S -->
+            <transform>
+                <from command="1" key="S" />
+                <to control="1" key="S" />
+            </transform>
+
+            <!-- Command+T to Control+T -->
+            <transform>
+                <from command="1" key="T" />
+                <to control="1" key="T" />
+            </transform>
+
+            <!-- Command+U to Control+U -->
+            <transform>
+                <from command="1" key="U" />
+                <to control="1" key="U" />
+            </transform>
+
+            <!-- Command+V to Control+V -->
+            <transform>
+                <from command="1" key="V" />
+                <to control="1" key="V" />
+            </transform>
+
+            <!-- Command+W to Control+W -->
+            <transform>
+                <from command="1" key="W" />
+                <to control="1" key="W" />
+            </transform>
+
+            <!-- Command+X to Control+X -->
+            <transform>
+                <from command="1" key="X" />
+                <to control="1" key="X" />
+            </transform>
+
+            <!-- Command+Y to Control+Y -->
+            <transform>
+                <from command="1" key="Y" />
+                <to control="1" key="Y" />
+            </transform>
+
+            <!-- Command+Z to Control+Z -->
+            <transform>
+                <from command="1" key="Z" />
+                <to control="1" key="Z" />
             </transform>
         </transformations>
     </layout>
