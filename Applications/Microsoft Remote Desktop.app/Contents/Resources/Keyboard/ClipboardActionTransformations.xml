@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- transformation for clipboard actions (cut copy paste) -->
+<!-- layout specific -->
+<layouts>
+    <!-- Dvorak X C V are not on same physical position as on US keyboard. -->
+    <layout name="com.apple.keylayout.Dvorak">
+        <transformations>
+            <!-- Command+X to Control+X -->
+            <transform>
+                <from command="1" key="B" />
+                <to control="1" key="B" />
+            </transform>
+            <!-- Command+C to Control+C -->
+            <transform>
+                <from command="1" key="I" />
+                <to control="1" key="I" />
+            </transform>
+            <!-- Command+V to Control+V -->
+            <transform>
+                <from command="1" key="Period" />
+                <to control="1" key="Period" />
+            </transform>
+            <!-- Command+A to Control+A, the A in dvorak is in the same position as in qwerty -->
+            <transform>
+                <from command="1" key="A" />
+                <to control="1" key="A" />
+            </transform>
+            <!-- Command+Z to Control+Z -->
+            <transform>
+                <from command="1" key="Slash" />
+                <to control="1" key="Slash" />
+            </transform>
+            <!-- Command+F to Control+F -->
+            <transform>
+                <from command="1" key="Y" />
+                <to control="1" key="Y" />
+            </transform>
+        </transformations>
+    </layout>
+    <!-- the default is US keyboard physical position for X C V -->
+    <layout name="default">
+        <transformations>
+            <!-- Command+X to Control+X -->
+            <transform>
+                <from command="1" key="X" />
+                <to control="1" key="X" />
+            </transform>
+            <!-- Command+C to Control+C -->
+            <transform>
+                <from command="1" key="C" />
+                <to control="1" key="C" />
+            </transform>
+            <!-- Command+V to Control+V -->
+            <transform>
+                <from command="1" key="V" />
+                <to control="1" key="V" />
+            </transform>
+            <!-- Command+A to Control+A -->
+            <transform>
+                <from command="1" key="A" />
+                <to control="1" key="A" />
+            </transform>
+            <!-- Command+Z to Control+Z -->
+            <transform>
+                <from command="1" key="Z" />
+                <to control="1" key="Z" />
+            </transform>
+            <!-- Command+F to Control+F -->
+            <transform>
+                <from command="1" key="F" />
+                <to control="1" key="F" />
+            </transform>
+        </transformations>
+    </layout>
+</layouts>
