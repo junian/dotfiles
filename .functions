@@ -293,3 +293,16 @@ function display-screen-info()
         screenfetch -E -d '+disk'
     fi
 }
+
+function brew-checkformula () 
+{
+    for formula in `brew list`; do
+	dependees=$(brew uses --installed $formula)
+	if [ -z "$dependees" ]; then
+		echo "$formula"
+		
+	    # read -p "$formula is not depended on by other formulas. Remove? [Y/n] " -n 1 -r
+	    #echo
+	fi
+    done
+}
