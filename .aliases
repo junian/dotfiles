@@ -167,4 +167,6 @@ alias adb-system-installed="adb shell pm list packages -s | sed 's/.*://g' | sor
 
 alias adb-system-uninstalled="comm -13 <(adb shell pm list packages -s | sort) <(adb shell pm list packages -s -u | sort) | sed 's/.*://g'"
 
+alias adb-uninstall="adb shell pm uninstall -k --user 0"
+
 alias rterm='/usr/local/bin/r'
