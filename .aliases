@@ -163,4 +163,6 @@ alias scan-port="nmap -sT -p-"
 
 alias adb-screenshot="adb exec-out screencap -p >"
 
+alias adb-system-installed="adb shell pm list packages -s | sed 's/.*://g' | sort"
+
 alias rterm='/usr/local/bin/r'
