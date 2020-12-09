@@ -165,4 +165,6 @@ alias adb-screenshot="adb exec-out screencap -p >"
 
 alias adb-system-installed="adb shell pm list packages -s | sed 's/.*://g' | sort"
 
+alias adb-system-uninstalled="comm -13 <(adb shell pm list packages -s | sort) <(adb shell pm list packages -s -u | sort) | sed 's/.*://g'"
+
 alias rterm='/usr/local/bin/r'
