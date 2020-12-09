@@ -169,4 +169,6 @@ alias adb-system-uninstalled="comm -13 <(adb shell pm list packages -s | sort) <
 
 alias adb-uninstall="adb shell pm uninstall -k --user 0"
 
+alias adb-reinstall="adb shell cmd package install-existing"
+
 alias rterm='/usr/local/bin/r'
