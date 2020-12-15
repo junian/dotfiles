@@ -306,3 +306,9 @@ function brew-checkformula ()
 	fi
     done
 }
+
+function turbo-boost-switcher()
+{
+	sudo launchctl unload /Library/LaunchDaemons/com.turbo-boost-switcher.plist
+	sudo launchctl load /Library/LaunchDaemons/com.turbo-boost-switcher.plist
+}
