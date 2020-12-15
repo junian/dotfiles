@@ -6,6 +6,9 @@ for file in ~/.{aliases,functions,myenv,myaliases,myfunctions}; do
 done;
 unset file;
 
+# For dotnet tools
+export PATH="$PATH:$HOME/.dotnet/tools"
+
 # Add mysql client from brew
 export PATH="/usr/local/opt/mysql-client/bin:$PATH"
 
