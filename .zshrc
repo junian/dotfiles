@@ -17,5 +17,10 @@ if type brew &>/dev/null; then
     compinit
 fi
 
+# disable "r" command (which runs previous executed command) 
+# so that it doesnt interfere with the binary for "r" language.
+disable r
+
 # Display computer stats when logged in into shell 
 display-screen-info
+
