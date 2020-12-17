@@ -285,7 +285,9 @@ function run-sqlserver-latest()
 
 function display-screen-info()
 {
-    if command -v neofetch >/dev/null 2>&1; then
+    if command -v pfetch >/dev/null 2>&1; then
+        pfetch
+    elif command -v neofetch >/dev/null 2>&1; then
         neofetch
     elif command -v archey >/dev/null 2>&1; then
         archey --offline
