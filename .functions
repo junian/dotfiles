@@ -314,3 +314,18 @@ function turbo-boost-switcher()
 	sudo launchctl unload /Library/LaunchDaemons/com.turbo-boost-switcher.plist
 	sudo launchctl load /Library/LaunchDaemons/com.turbo-boost-switcher.plist
 }
+
+function diff-zip() 
+{ 
+  diff -W200 -y <(unzip -vql $1 | sort -k8) <(unzip -vql $2 | sort -k8); 
+}
+
+function ffmpeg-mp4()
+{
+	ffmpeg -i $1 -c:v libx264 -crf 23 -c:a aac -map_metadata 0 $2
+}
+
+function rsync-itunes()
+{
+	rsync -av ~/Music/ $1:~/storage/music/
+}

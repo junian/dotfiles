@@ -70,6 +70,12 @@ export PATH="$HOME/.cargo/bin:$PATH"
 
 export PATH="/usr/local/miniconda3/bin:$PATH"
 
+# Install gem without sudo
+# From CocoaPods sudo-less installation
+export GEM_HOME=$HOME/.gem
+export PATH=$GEM_HOME/bin:$PATH
+#export PATH=`gem env gemdir`/bin:$PATH
+
 # disable brew analytics
 export HOMEBREW_NO_ANALYTICS=1
 

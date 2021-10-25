@@ -169,11 +169,19 @@ alias adb-system-installed="adb shell pm list packages -s | sed 's/.*://g' | sor
 
 alias adb-system-uninstalled="comm -13 <(adb shell pm list packages -s | sort) <(adb shell pm list packages -s -u | sort) | sed 's/.*://g'"
 
+alias adb-user-installed="adb shell pm list packages -3 | sed 's/.*://g' | sort"
+
 alias adb-uninstall="adb shell pm uninstall -k --user 0"
 
 alias adb-reinstall="adb shell cmd package install-existing"
 
+alias adb-disable="adb shell pm disable-user --user 0"
+
+alias adb-enable="adb shell pm enable"
+
 alias rterm='/usr/local/bin/r'
 
 alias set-intersection='comm -12'
+
+alias otp-to-qr="qrencode -o- -d 300 -s 10 -t UTF8"
 
