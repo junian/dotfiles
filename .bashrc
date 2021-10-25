@@ -1,5 +1,14 @@
 export CLICOLOR=1
 
+# Homebrew bin for apple silicon
+export PATH="/opt/homebrew/bin:$PATH"
+
+# Add ssh-copy-id from Brew
+export PATH="/opt/homebrew/opt/ssh-copy-id/bin:$PATH"
+
+# Add android platform-tools like adb
+export PATH="/opt/homebrew/share/android-commandlinetools/platform-tools:$PATH"
+
 # Load the shell dotfiles, and then some:
 for file in ~/.{aliases,functions,myenv,myaliases,myfunctions}; do
     [ -r "$file" ] && [ -f "$file" ] && source "$file";
