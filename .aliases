@@ -185,3 +185,7 @@ alias set-intersection='comm -12'
 
 alias otp-to-qr="qrencode -o- -d 300 -s 10 -t UTF8"
 
+alias python="python3"
+
+alias pip="pip3"
+
