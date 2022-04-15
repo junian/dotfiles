@@ -191,3 +191,8 @@ alias pip="pip3"
 
 alias exif-fix-filedate="exiftool '-FileCreateDate<CreateDate' '-FileModifyDate<ModifyDate'"
 
+alias exif-set-date="exiftool '-CreateDate<FileCreateDate' '-ModifyDate<FileModifyDate'"
+
+alias exif-filename-to-date="exiftool '-alldates<filename'"
+
+alias exif-filemodified-to-date="exiftool '-alldates<FileModifyDate'"
