@@ -189,4 +189,5 @@ alias python="python3"
 
 alias pip="pip3"
 
-alias exif-fix-file-date="exiftool '-FileCreateDate<CreateDate' '-FileModifyDate<ModifyDate'"
+alias exif-fix-filedate="exiftool '-FileCreateDate<CreateDate' '-FileModifyDate<ModifyDate'"
+
