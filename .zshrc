@@ -24,3 +24,6 @@ disable r
 # Display computer stats when logged in into shell 
 display-screen-info
 
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
