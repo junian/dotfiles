@@ -329,3 +329,8 @@ function rsync-itunes()
 {
 	rsync -av ~/Music/ $1:~/storage/music/
 }
+
+function exif-scan-no-camera()
+{
+    exiftool -p '$directory/$filename' -if 'not $model' -r $1
+}
