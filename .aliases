@@ -196,3 +196,5 @@ alias exif-set-date="exiftool '-CreateDate<FileCreateDate' '-ModifyDate<FileModi
 alias exif-filename-to-date="exiftool '-alldates<filename'"
 
 alias exif-filemodified-to-date="exiftool '-alldates<FileModifyDate'"
+
+alias exif-rename-file="exiftool -d 'IMG_%Y%m%d-%H%M%S%%-02.c.%%e' '-filename<CreateDate'"
