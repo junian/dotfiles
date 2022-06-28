@@ -320,10 +320,20 @@ function diff-zip()
   diff -W200 -y <(unzip -vql $1 | sort -k8) <(unzip -vql $2 | sort -k8); 
 }
 
+#region ffmpeg
+
 function ffmpeg-mp4()
 {
 	ffmpeg -i $1 -c:v libx264 -crf 23 -c:a aac -map_metadata 0 $2
 }
+
+# Source: https://superuser.com/a/100290
+function ffmpeg-check()
+{
+    ffmpeg -v error -i $1 -f null - 2>error.log
+}
+
+#endregion ffmpeg
 
 function rsync-itunes()
 {
