@@ -198,3 +198,5 @@ alias exif-filename-to-date="exiftool '-alldates<filename'"
 alias exif-filemodified-to-date="exiftool '-alldates<FileModifyDate'"
 
 alias exif-rename-file="exiftool -d 'IMG_%Y%m%d-%H%M%S%%-02.c.%%e' '-filename<CreateDate'"
+
+alias codesign-list="security find-identity -v -p codesigning"
