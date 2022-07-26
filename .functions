@@ -344,3 +344,14 @@ function exif-scan-no-camera()
 {
     exiftool -p '$directory/$filename' -if 'not $model' -r $1
 }
+
+#dotnet 
+function dotnet-new-maui-page-xaml()
+{
+     dotnet new maui-page-xaml -o "$1" -n "$2"
+}
+
+function dotnet-new-maui-view-xaml()
+{
+     dotnet new maui-view-xaml -o "$1" -n "$2"
+}
