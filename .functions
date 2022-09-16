@@ -361,3 +361,9 @@ function parallels-create-macvm()
 {
     /Applications/Parallels\ Desktop.app/Contents/MacOS/prl_macvm_create "$1" "$2" --disksize 128000000000
 }
+
+function app-bundle-id()
+{
+    osascript -e "id of app \"$@\""
+}
+
