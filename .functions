@@ -367,3 +367,7 @@ function app-bundle-id()
     osascript -e "id of app \"$@\""
 }
 
+function app-disable-dark-mode()
+{
+    defaults write $@ NSRequiresAquaSystemAppearance -bool Yes
+}
