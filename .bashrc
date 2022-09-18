@@ -1,5 +1,8 @@
 export CLICOLOR=1
 
+# Homebrew init install
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # Homebrew bin for apple silicon
 export PATH="/opt/homebrew/bin:$PATH"
 
