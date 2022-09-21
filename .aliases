@@ -202,3 +202,5 @@ alias exif-rename-file="exiftool -d 'IMG_%Y%m%d-%H%M%S%%-02.c.%%e' '-filename<Cr
 alias codesign-list="security find-identity -v -p codesigning"
 
 alias codesign-entitlements-check="codesign -d --entitlements -"
+
+alias chmod-get-number='stat -f "%OLp"'
