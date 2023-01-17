@@ -28,7 +28,7 @@ alias tomcat-start='sh /usr/local/Cellar/tomcat\@6/6.0.45/bin/startup.sh'
 alias tomcat-stop='sh /usr/local/Cellar/tomcat\@6/6.0.45/bin/shutdown.sh'
 
 # brew update + upgrade + cleanup
-alias brew-up='brew update --verbose; brew upgrade; brew cleanup -s --verbose; brew doctor --verbose; trash `brew --cache`'
+alias brew-up='brew update --verbose; brew upgrade; brew cleanup -s --verbose; brew doctor --verbose; trash `brew --cache`; find "/opt/homebrew/Caskroom" -name "*.pkg" -exec trash {} \;'
 
 # brew bundle global
 alias brew-bundle='brew bundle --global --verbose'
