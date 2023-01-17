@@ -11,8 +11,8 @@ function eof-check() {
 
 # Clean bin/ and obj/
 function clean-bin-obj() {
-  find $HOME/Documents/ -iname "bin" -print0 | xargs -0 trash
-  find $HOME/Documents/ -iname "obj" -print0 | xargs -0 trash
+  find "$1" -iname "bin" -print0 | xargs -0 trash
+  find "$1" -iname "obj" -print0 | xargs -0 trash
 }
 
 # Clean node_modules produced by npm
