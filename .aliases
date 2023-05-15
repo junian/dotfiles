@@ -206,3 +206,5 @@ alias codesign-entitlements-check="codesign -d --entitlements -"
 alias chmod-get-number='stat -f "%OLp"'
 
 alias codesign-validate="codesign -vvv --deep --strict"
+
+alias pkg-validate="pkgutil --check-signature"
