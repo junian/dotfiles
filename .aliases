@@ -210,3 +210,5 @@ alias codesign-validate="codesign -vvv --deep --strict"
 alias pkg-validate="pkgutil --check-signature"
 
 alias ipsw='docker run -it --rm -v $(pwd):/data blacktop/ipsw'
+
+alias zsh-x64='arch -x86_64 zsh'
