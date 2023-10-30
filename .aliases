@@ -212,3 +212,5 @@ alias pkg-validate="pkgutil --check-signature"
 alias ipsw='docker run -it --rm -v $(pwd):/data blacktop/ipsw'
 
 alias zsh-x64='arch -x86_64 zsh'
+
+alias zsh-arm64='arch -arm64 zsh'
