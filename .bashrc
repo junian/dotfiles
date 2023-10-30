@@ -1,7 +1,13 @@
 export CLICOLOR=1
 
-# Homebrew init install
-eval "$(/opt/homebrew/bin/brew shellenv)"
+if [[ "$(uname -m)" == "arm64" ]]
+then
+    # Homebrew init install ARM64
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+else
+    # Homebrew init install X86_64
+    eval "$(/usr/local/bin/brew shellenv)"
+fi
 
 # Homebrew bin for apple silicon
 export PATH="/opt/homebrew/bin:$PATH"
