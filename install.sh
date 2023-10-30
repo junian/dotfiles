@@ -3,7 +3,7 @@
 echo "Installing dotfiles to home";
 echo "Creating symlinks of dotfiles";
 
-for file in .{functions,aliases,vimrc,bashrc,bash_profile,tmux.conf,zshrc}; do
+for file in .{functions,aliases,vimrc,bashrc,bash_profile,tmux.conf,zshrc,zprofile}; do
     if [ -r "$PWD/$file" ] && [ -f "$PWD/$file" ]; then
 	    rm "$HOME/$file";
 	    ln -sv "$PWD/$file" $HOME;
