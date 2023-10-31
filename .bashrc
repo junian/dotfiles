@@ -9,9 +9,6 @@ else
     eval "$(/usr/local/bin/brew shellenv)"
 fi
 
-# Homebrew bin for apple silicon
-export PATH="/opt/homebrew/bin:$PATH"
-
 # Add ssh-copy-id from Brew
 export PATH="/opt/homebrew/opt/ssh-copy-id/bin:$PATH"
 
