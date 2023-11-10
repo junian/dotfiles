@@ -214,3 +214,7 @@ alias ipsw='docker run -it --rm -v $(pwd):/data blacktop/ipsw'
 alias zsh-x64='arch -x86_64 zsh'
 
 alias zsh-arm64='arch -arm64 zsh'
+
+alias metal-hud-enable='/bin/launchctl setenv MTL_HUD_ENABLED 1'
+
+alias metal-hud-disable='/bin/launchctl setenv MTL_HUD_ENABLED 0'
