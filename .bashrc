@@ -28,7 +28,7 @@ export PATH="$PATH:$HOME/.dotnet/tools"
 export PATH="/usr/local/opt/mysql-client/bin:$PATH"
 
 # Add ruby from Brew
-export PATH="/usr/local/opt/ruby/bin:$PATH"
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 
 # Add python from Brew
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
@@ -79,9 +79,6 @@ export PATH="$HOME/.fastlane/bin:$PATH"
 
 # mono registry
 export MONO_REGISTRY_PATH=~/.mono/registry
-
-# rustup
-export PATH="$HOME/.cargo/bin:$PATH"
 
 export PATH="/usr/local/miniconda3/bin:$PATH"
 
