@@ -21,6 +21,9 @@ for file in ~/.{aliases,functions,myenv,myaliases,myfunctions}; do
 done;
 unset file;
 
+# Created by `pipx` on 2024-04-22 09:40:00
+export PATH="$PATH:$HOME/.local/bin"
+
 # For dotnet tools
 export PATH="$PATH:$HOME/.dotnet/tools"
 

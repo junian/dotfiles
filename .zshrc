@@ -43,3 +43,6 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+
+# Created by `pipx` on 2024-04-22 09:40:00
+export PATH="$PATH:$HOME/.local/bin"
