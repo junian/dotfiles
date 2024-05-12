@@ -62,9 +62,9 @@ export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:/usr/local/opt/go/libexec/bin
 
 # Set ANDROID_HOME
-export ANDROID_HOME="/usr/local/share/android-sdk"
+export ANDROID_HOME="/opt/homebrew/share/android-commandlinetools"
 
-export ANDROID_SDK_ROOT="/usr/local/share/android-sdk"
+export ANDROID_SDK_ROOT="/opt/homebrew/share/android-commandlinetools"
 
 export ANDROID_NDK_HOME="$ANDROID_HOME/ndk-bundle"
 
