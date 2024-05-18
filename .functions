@@ -287,6 +287,8 @@ function display-screen-info()
 {
     if command -v pfetch >/dev/null 2>&1; then
         pfetch
+    elif command -v fastfetch >/dev/null 2>&1; then
+        fastfetch
     elif command -v neofetch >/dev/null 2>&1; then
         neofetch
     elif command -v archey >/dev/null 2>&1; then
@@ -369,7 +371,7 @@ function app-bundle-id()
 
 function app-disable-dark-mode()
 {
-    defaults write $@ NSRequiresAquaSystemAppearance -bool Yes
+    defaults write "$@" NSRequiresAquaSystemAppearance -bool Yes
 }
 
 function clean-ds_store()
