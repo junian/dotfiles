@@ -324,7 +324,7 @@ function diff-zip()
 
 #region ffmpeg
 
-function ffmpeg-mp4()
+function ffmpeg-transcode-to-mp4()
 {
 	ffmpeg -i $1 -c:v libx264 -crf 23 -c:a aac -map_metadata 0 $2
 }
@@ -333,6 +333,11 @@ function ffmpeg-mp4()
 function ffmpeg-check()
 {
     ffmpeg -v error -i $1 -f null - 2>error.log
+}
+
+function ffmpeg-remux()
+{
+	ffmpeg -i $1 -map 0 -c copy $2
 }
 
 #endregion ffmpeg
