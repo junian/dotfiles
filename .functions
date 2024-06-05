@@ -335,6 +335,7 @@ function ffmpeg-check()
     ffmpeg -v error -i $1 -f null - 2>error.log
 }
 
+# Source: https://trac.ffmpeg.org/wiki/Map
 function ffmpeg-remux()
 {
 	ffmpeg -i $1 -map 0 -c copy $2
