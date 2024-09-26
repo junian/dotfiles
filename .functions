@@ -384,3 +384,8 @@ function clean-ds_store()
 {
 	find "$1" -name ".DS_Store" -type f -delete
 }
+
+function dock-resize()
+{
+    defaults write com.apple.dock tilesize -int 47; killall Dock
+}
