@@ -75,12 +75,6 @@ alias show-extensions='defaults write NSGlobalDomain AppleShowAllExtensions -boo
 # open AppCleaner
 alias appcleaner='open -a /Applications/AppCleaner.app/'
 
-# set python as python3 alias
-# alias python='/usr/local/bin/python3'
-
-# set pip as pip3 alias
-# alias pip='/usr/local/bin/pip3'
-
 # rsync dry run
 alias rsync-dry-run='rsync -avh --dry-run'
 
@@ -155,8 +149,6 @@ alias pkg-info='pkgutil --pkg-info'
 
 alias pkg-forget='sudo pkgutil --forget'
 
-alias ricloud='python2 -m ricloud'
-
 alias sleepless="pmset -g assertions | egrep '(PreventUserIdleSystemSleep|PreventUserIdleDisplaySleep)'"
 
 alias scan-port="nmap -sT -p-"
@@ -184,10 +176,6 @@ alias rterm='/usr/local/bin/r'
 alias set-intersection='comm -12'
 
 alias otp-to-qr="qrencode -o- -d 300 -s 10 -t UTF8"
-
-alias python="python3"
-
-alias pip="pip3"
 
 alias exif-fix-filedate="exiftool '-FileCreateDate<CreateDate' '-FileModifyDate<ModifyDate'"
 
@@ -218,3 +206,6 @@ alias zsh-arm64='arch -arm64 zsh'
 alias metal-hud-enable='/bin/launchctl setenv MTL_HUD_ENABLED 1'
 
 alias metal-hud-disable='/bin/launchctl setenv MTL_HUD_ENABLED 0'
+
+alias marp-cli="npx @marp-team/marp-cli@latest"
+

@@ -14,6 +14,7 @@ export PATH="/opt/homebrew/opt/ssh-copy-id/bin:$PATH"
 
 # Add android platform-tools like adb
 export PATH="/opt/homebrew/share/android-commandlinetools/platform-tools:$PATH"
+export PATH="/opt/homebrew/share/android-commandlinetools/tools:$PATH"
 
 # Load the shell dotfiles, and then some:
 for file in ~/.{aliases,functions,myenv,myaliases,myfunctions}; do
@@ -22,10 +23,10 @@ done;
 unset file;
 
 # Created by `pipx` on 2024-04-22 09:40:00
-export PATH="$PATH:$HOME/.local/bin"
+export PATH="$HOME/.local/bin:$PATH"
 
 # For dotnet tools
-export PATH="$PATH:$HOME/.dotnet/tools"
+export PATH="$HOME/.dotnet/tools:$PATH"
 
 # Add mysql client from brew
 export PATH="/usr/local/opt/mysql-client/bin:$PATH"
@@ -66,7 +67,8 @@ export ANDROID_HOME="/opt/homebrew/share/android-commandlinetools"
 
 export ANDROID_SDK_ROOT="/opt/homebrew/share/android-commandlinetools"
 
-export ANDROID_NDK_HOME="$ANDROID_HOME/ndk-bundle"
+# export ANDROID_NDK_HOME="$ANDROID_HOME/ndk-bundle"
+export ANDROID_NDK_ROOT="$ANDROID_HOME/ndk"
 
 # Android platform tools (e.g. adb, fastboot)
 export PATH="$ANDROID_HOME/platform-tools:$PATH"
@@ -119,9 +121,13 @@ PERL_MB_OPT="--install_base \"$HOME/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=$HOME/perl5"; export PERL_MM_OPT;
 
 export PATH="$HOME/.docker/bin:$PATH"
+export BAT_THEME=zenburn
 export PASSWORD_STORE_GPG_OPTS=--armor
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
-[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 . "$HOME/.cargo/env"
+
+export PATH="$HOME/Projects/dotnet-console-apps/bin:$PATH"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/junian/.lmstudio/bin"
+

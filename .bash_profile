@@ -11,3 +11,10 @@ export PS1=$'\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\n\[\033[m\
 # Display computer stats when logged in into shell 
 display-screen-info
 . "$HOME/.cargo/env"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/junian/.sdkman"
+[[ -s "/Users/junian/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/junian/.sdkman/bin/sdkman-init.sh"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/junian/.lmstudio/bin"

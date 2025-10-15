@@ -389,3 +389,26 @@ function dock-resize()
 {
     defaults write com.apple.dock tilesize -int 47; killall Dock
 }
+
+function git-commit-past()
+{
+   GIT_COMMIT_MESSAGE="$1"
+   GIT_PAST_DAYS=8
+   GIT_AUTHOR_DATE=$(date -r $(( $(date '+%s') - $GIT_PAST_DAYS*86400 ))) GIT_COMMITTER_DATE="$GIT_AUTHOR_DATE" git commit -m "$GIT_COMMIT_MESSAGE"
+}
+
+function ffmpeg-fix()
+{
+    INPUT_VIDEO="$1"
+    TMP_DIR="$HOME/.tmp/ffmpeg"
+
+
+    mkdir -p "$HOME/.tmp/ffmpeg/"
+    TMP_FULL_PATH=$(mktemp "$TMP_DIR/tmp.XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+    TMP_OUTPUT="$TMP_FULL_PATH.mp4"
+
+    ffmpeg -err_detect ignore_err -i "$INPUT_VIDEO" -c copy "$TMP_OUTPUT"
+
+    mv "$TMP_OUTPUT" "$INPUT_VIDEO"
+    rm "$TMP_FULL_PATH"
+}
