@@ -129,5 +129,5 @@ export PASSWORD_STORE_GPG_OPTS=--armor
 export PATH="$HOME/Projects/dotnet-console-apps/bin:$PATH"
 
 # Added by LM Studio CLI (lms)
-export PATH="$PATH:/Users/junian/.lmstudio/bin"
+export PATH="$PATH:$HOME/.lmstudio/bin"
 
