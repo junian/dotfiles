@@ -124,10 +124,4 @@ export PATH="$HOME/.docker/bin:$PATH"
 export BAT_THEME=zenburn
 export PASSWORD_STORE_GPG_OPTS=--armor
 
-. "$HOME/.cargo/env"
-
 export PATH="$HOME/Projects/dotnet-console-apps/bin:$PATH"
-
-# Added by LM Studio CLI (lms)
-export PATH="$PATH:$HOME/.lmstudio/bin"
-
