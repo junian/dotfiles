@@ -124,4 +124,7 @@ export PATH="$HOME/.docker/bin:$PATH"
 export BAT_THEME=zenburn
 export PASSWORD_STORE_GPG_OPTS=--armor
 
+# rust from rustup
+export PATH="$(brew --prefix rustup)/bin:$PATH"
+
 export PATH="$HOME/Projects/dotnet-console-apps/bin:$PATH"
