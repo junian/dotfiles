@@ -10,17 +10,22 @@ Clone this repository to home folder.
 git clone git@github.com:junian/dotfiles.git ~/.dotfiles
 ```
 
-Install Vundle for vim plugins
-
-```bash
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-```
-
 Before using anything, install it first by typing this command:
 
 ```bash
 $ ./install.sh
 ```
+
+## Vim Plugins Setup
+
+- Install Vundle for vim plugins
+  ```bash
+  git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+  ```
+- Open `vim` from Terminal
+- Press <kbd>ESC</kbd> and type `:PluginInstall`
+- Press <kbd>ENTER</kbd> and wait unti finished
+- Once finished or `Done!`, press <kbd>ESC</kbd>, type `:q`, then press <kbd>ENTER</kbd>
 
 ## What's Inside?
 
