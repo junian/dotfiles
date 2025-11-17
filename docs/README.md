@@ -20,6 +20,7 @@ My personal dotfiles collection. Intended to be used on the macOS system, but so
 
 ## Vim Plugins Setup
 
+- Install `vim`. If you're on macOS, I recommend `brew install macvim-app`.
 - Install Vundle for vim plugins
   ```bash
   git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
