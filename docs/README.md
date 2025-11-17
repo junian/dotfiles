@@ -1,20 +1,22 @@
+<div align="center">
+  
 # dotfiles
 
 My personal dotfiles collection. Intended to be used on the macOS system, but some parts should be able to be used on \*nix-based systems.
 
+</div>
+
 ## Installation
 
-Clone this repository to home folder.
-
-```bash
-git clone git@github.com:junian/dotfiles.git ~/.dotfiles
-```
-
-Before using anything, install it first by typing this command:
-
-```bash
-$ ./install.sh
-```
+- Clone this repository to `$HOME` folder.
+  ```bash
+  git clone git@github.com:junian/dotfiles.git ~/.dotfiles
+  ```
+- Before using anything, install it first by typing this command:
+  ```bash
+  cd ~/.dotfiles/
+  ./install.sh
+  ```
 
 ## Vim Plugins Setup
 
