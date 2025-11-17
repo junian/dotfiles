@@ -2,6 +2,20 @@
 
 My personal dotfiles collection. Intended to be used on the macOS system, but some parts should be able to be used on \*nix-based systems.
 
+## Installation
+
+Clone this repository to home folder.
+
+```bash
+git clone git@github.com:junian/dotfiles.git ~/.dotfiles
+```
+
+Install Vundle for vim plugins
+
+```bash
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+
 Before using anything, install it first by typing this command:
 
 ```bash
