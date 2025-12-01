@@ -128,3 +128,6 @@ export PASSWORD_STORE_GPG_OPTS=--armor
 export PATH="$(brew --prefix rustup)/bin:$PATH"
 
 export PATH="$HOME/Projects/dotnet-console-apps/bin:$PATH"
+export PATH="/opt/homebrew/opt/trash/bin:$PATH"
+
+export PNPM_HOME="$HOME/.pnpm"

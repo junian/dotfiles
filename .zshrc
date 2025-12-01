@@ -59,3 +59,12 @@ export PATH="$HOME/.codeium/windsurf/bin:$PATH"
 
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:$HOME/.lmstudio/bin"
+
+## [Completion]
+## Completion scripts setup. Remove the following line to uninstall
+[[ -f /Users/junian/.dart-cli-completion/zsh-config.zsh ]] && . /Users/junian/.dart-cli-completion/zsh-config.zsh || true
+## [/Completion]
+
+
+# Added by Antigravity
+export PATH="/Users/junian/.antigravity/antigravity/bin:$PATH"
