@@ -93,8 +93,10 @@ export GEM_HOME=$HOME/.gem
 export PATH=$GEM_HOME/bin:$PATH
 #export PATH=`gem env gemdir`/bin:$PATH
 
-# disable brew analytics
+# Homebrew will not send analytics.
 export HOMEBREW_NO_ANALYTICS=1
+# Homebrew will not auto-update before running `brew install`.
+export HOMEBREW_NO_AUTO_UPDATE=1
 
 # iTerm integration
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
