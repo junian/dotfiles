@@ -209,4 +209,4 @@ alias metal-hud-disable='/bin/launchctl setenv MTL_HUD_ENABLED 0'
 
 alias marp-cli="npx @marp-team/marp-cli@latest"
 
-alias pip="python -m pip"
+# alias pip="python -m pip"
