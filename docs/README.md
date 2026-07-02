@@ -13,10 +13,13 @@ My personal dotfiles collection. Intended to be used on the macOS system, but so
 ## Installation
 
 - Clone this repository to `$HOME` folder.
+  
   ```bash
   git clone git@github.com:junian/dotfiles.git ~/.dotfiles
   ```
+  
 - Before using anything, install it first by typing this command:
+
   ```bash
   cd ~/.dotfiles/
   ./install.sh
@@ -25,13 +28,17 @@ My personal dotfiles collection. Intended to be used on the macOS system, but so
 ## Vim Plugins Setup
 
 - Install `vim`. If you're on macOS, I recommend MacVim:
+
   ```bash
   brew install macvim-app
   ```
+  
 - Install Vundle for vim plugins
+
   ```bash
   git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
   ```
+  
 - Open `vim` from Terminal
 - Press <kbd>ESC</kbd> and type `:PluginInstall`
 - Press <kbd>ENTER</kbd> and wait unti finished
