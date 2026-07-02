@@ -62,4 +62,4 @@ Batman logo in ASCII, you can take a look at the `.batman` file. You can use it 
 
 ## License
 
-This work is licensed under [Public Domain / Unlicense](https://github.com/junian/dotfiles/blob/master/LICENSE). This means you can do whatever you want with it for free, personal or commercial purposes, with or without attribution.
+This work is licensed under [MIT](https://github.com/junian/dotfiles/blob/master/LICENSE). This means you can do whatever you want with it for free, personal or commercial purposes, with or without attribution.
