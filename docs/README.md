@@ -5,7 +5,12 @@
 My personal dotfiles collection. Intended to be used on the macOS system, but some parts should be able to be used on \*nix-based systems.
 
 <p>
-  <a href="https://github.com/junian/dotfiles"><img src="https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white&style=for-the-badge" alt="dotfiles on GitHub" title="dotfiles on GitHub"></a>
+  <a href="https://github.com/junian/dotfiles">
+    <img src="https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white&style=for-the-badge" alt="dotfiles on GitHub" title="dotfiles on GitHub">
+  </a>
+  <a href="https://github.com/junian/dotfiles">
+    <img src="https://img.shields.io/github/license/junian/dotfiles?style=for-the-badge&color=a32d2a" alt="dotfiles license" title="dotfiles license">
+  </a>
   <a href="https://github.com/junian/dotfiles">
     <img src="https://img.shields.io/github/languages/code-size/junian/dotfiles?style=for-the-badge" alt="code size">
   </a>
