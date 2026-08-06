@@ -414,7 +414,7 @@ function ffmpeg-fix()
     rm "$TMP_FULL_PATH"
 }
 
-function ffmpeg-pillarbox() {
+function ffmpeg-blur-pillarbox() {
   if [ $# -ne 2 ]; then
     echo "Error: Exactly 2 parameters required (input file and output file)"
     return 1
@@ -432,7 +432,7 @@ function ffmpeg-pillarbox() {
     "$2"
 }
 
-function ffmpeg-letterbox() {
+function ffmpeg-blur-letterbox() {
   if [ $# -ne 2 ]; then
     echo "Error: Exactly 2 parameters required (input file and output file)"
     return 1
@@ -449,3 +449,25 @@ function ffmpeg-letterbox() {
          [blurred][original]overlay=(main_w-overlay_w)/2:(main_h-overlay_h)/2" \
     "$2"
 }
+
+function brew_cask_pkg_clean() {
+  local root="/opt/homebrew/Caskroom"
+  local pkg
+
+  [ -d "$root" ] || {
+    printf 'Directory not found: %s\n' "$root" >&2
+    return 1
+  }
+
+  find "$root" -type f -name '*.pkg' -print0 |
+    while IFS= read -r -d '' pkg; do
+      printf '%s\n' "$pkg"
+
+      if command -v trash >/dev/null 2>&1; then
+        trash -- "$pkg" || rm -f -- "$pkg"
+      else
+        rm -f -- "$pkg"
+      fi
+    done
+}
+
