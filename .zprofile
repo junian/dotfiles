@@ -1,3 +1,7 @@
+# The following lines were added by Docker Desktop to add commands to your PATH.
+export PATH="$PATH:/Users/junian/.docker/bin"
+# End of Docker Desktop section.
+
 # Created by `pipx` on 2024-04-22 09:40:00
 export PATH="$PATH:$HOME/.local/bin"
 

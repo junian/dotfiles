@@ -133,6 +133,10 @@ export PATH="$HOME/Projects/dotnet-console-apps/bin:$PATH"
 export PATH="/opt/homebrew/opt/trash/bin:$PATH"
 
 export PNPM_HOME="$HOME/.pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME/bin:"*) ;;
+  *) export PATH="$PNPM_HOME/bin:$PATH" ;;
+esac
 
 # The following lines have been added by Docker Desktop to enable Docker CLI completions.
 fpath=($HOME/.docker/completions $fpath)
@@ -154,3 +158,25 @@ export PATH="$HOME/.codeium/windsurf/bin:$PATH"
 export PATH="$HOME/.antigravity-ide/antigravity-ide/bin:$PATH"
 
 eval "$(vfox activate zsh)"
+
+if ! command -v docker >/dev/null 2>&1; then
+    docker() {
+        if [[ "$1" == "compose" ]]; then
+            shift
+            command container-compose "$@"
+        else
+            command container "$@"
+        fi
+    }
+fi
+
+# emscripten
+export EMSDK_QUIET=1
+source "$HOME/.local/emsdk/emsdk_env.sh"
+
+# Use homebrew ca-certificates
+export SSL_CERT_FILE="$(brew --prefix ca-certificates)/share/ca-certificates/cacert.pem"
+# Fix curl
+export CURL_CA_BUNDLE="$SSL_CERT_FILE"
+# Fix git
+export GIT_SSL_CAINFO="$SSL_CERT_FILE"

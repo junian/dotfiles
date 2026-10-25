@@ -64,3 +64,11 @@ export PATH="$PATH:$HOME/.lmstudio/bin"
 ## Completion scripts setup. Remove the following line to uninstall
 [[ -f /Users/junian/.dart-cli-completion/zsh-config.zsh ]] && . /Users/junian/.dart-cli-completion/zsh-config.zsh || true
 ## [/Completion]
+
+# pnpm
+export PNPM_HOME="/Users/junian/.pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME/bin:"*) ;;
+  *) export PATH="$PNPM_HOME/bin:$PATH" ;;
+esac
+# pnpm end
